@@ -11,7 +11,7 @@ const ProjectPhotoBox = styled.div`
     height: 70%;
     width: 100%;
     border-radius: 4px;
-    box-shadow: 0px 10px 30px -5px rgba(0, 123, 255, 0.3);
+    box-shadow: 0px 10px 30px -5px rgba(0, 123, 255, 0.5);
     background-image: url(${props => props.photoCover});
     background-size: cover;
     background-position: center center;

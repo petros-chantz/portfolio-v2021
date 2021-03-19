@@ -4,7 +4,7 @@ import Confetti from "react-dom-confetti";
 import styled from "styled-components";
 
 const DevPortfolioWrapper = styled.div`
-    height: 55vh;
+    height: 70vh;
     margin: 20px;
     display: grid;
     place-items: center;
