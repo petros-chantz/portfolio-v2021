@@ -1,0 +1,101 @@
+
+{
+    "1": {
+      "id": "1",
+      "title": "JoyStick",
+      "photoCover": "./assets/joyStick.jpg",
+      "projectType": "Master Elective Course",
+      "collaboration": "In collaboration with Annemiek Veldhuis",
+      "description": " JoyStick is a self-contained, network connected tangible sleep quality measuring device for the home setting. Most existing sleep quality measuring devices are aimed at the lab setting and especially targeted to be operated by adults. JoyStick makes it easier for adults and children to engage in a short psychomotor vigilance test right after they have woken up. Due to the success of the designed device JoyStick became a CHI submission. ",
+      "keywords": {
+        "keyword1": "Design Research",
+        "keyword2": "Data Modelling & Visualization",
+        "keyword3": "In-situ research",
+        "keyword4": "Prototyping",
+        "keyword5": "Developing"
+      },
+      "links": {
+        "linkA": {
+          "linkAddress": "https://www.dropbox.com/s/lnno0g9yk5ww32a/JoyStcik%20CHI%20paper.pdf?dl=0",
+          "linkName": "Submitted CHI Paper"
+        },
+        "linkB": {
+            "linkAddress": "https://www.dropbox.com",
+            "linkName": "More Photos"
+        }
+      }
+    },
+    "2": {
+      "id": "2",
+      "title": "AudioTales",
+      "photoCover": "./assets/audioTales-1.jpg",
+      "projectType": "Group project",
+      "collaboration": "In collaboration with Galina Petrova, Liyu Ruan, Jules Rutten",
+      "description": "Audio Tales is a smart home system created to motivate children to perform daily tasks through immersive and interactive storytelling. It contains speakers and tags which can be placed in different locations inside the home. Thus it provides  personalized storytelling according to the daily tasks’ children need to perform (e.g brush their teeth, make their bed etc). Within this project it was my first time working with smart adaptive systems, visualizing datasets, using fetch API to add and  manipulate the behaviour and interaction of our prototypes. ",
+      "keywords": {
+        "keyword1": "Mix Methods Processes",
+        "keyword2": "User Testing & Evaluation",
+        "keyword3": "Data Modelling & Visualization",
+        "keyword4": "Prototyping",
+        "keyword5": "Fabricating"
+      },
+      "links": {
+        "linkA": {
+          "linkAddress": "https://www.dropbox.com/s/trumfy8s9hrmv7l/Audio%20Tales%20-%20Final%20Report.pdf?dl=0",
+          "linkName": "Report"
+        },
+        "linkB": {
+          "linkAddress": "https://www.dropbox.com/sh/m92vif13kyhn13m/AABrZ466ZWVFuQqvCs20RluGa?dl=0",
+          "linkName": "More Photos"
+        }
+      }
+    },
+    "3": {
+      "id": "3",
+      "title": "Being Honest",
+      "photoCover": "./assets/honest_5.JPG",
+      "projectType": "Master Elective Course",
+      "collaboration": "In collaboration with: Minerva Loos",
+      "description": "Inspired by the authors Strengers & Nickolls [1] we set out to explore the question of what would happen if smart products in the home weren’t honest. We conducted a critical inquiry study where we designed a ‘smart cup’ with randomised behaviour and tested it within participants’ homes and working areas. Our findings showcase that people’s behaviours are shaped and influenced by the narratives that smart devices push (as also noted by Strengers & Nickolls [1]). At the same time people also have very specific expectations on the devices themselves, to be and act in a ‘smart’ way.",
+      "description_extra": "[1] Strengers, Y., & Nicholls, L. (2017). Convenience and energy consumption in the smart home of the future: Industry visions from australia and beyond. Energy Research & Social Science, 32, 86-93",
+      "keywords": {
+        "keyword1": "Design Research",
+        "keyword2": "Thematic Data Analysis",
+        "keyword3": "In-situ Research",
+        "keyword4": "Prototyping",
+        "keyword5": "Developing"
+      },
+      "links": {
+        "linkA": {
+          "linkAddress": "https://www.dropbox.com/s/qqgji53go3c222v/DCM170_2018_Presentation_Group6_Chantzopoulou_Loos.pdf?dl=0",
+          "linkName": "Report"
+        },
+        "linkB": {
+          "linkAddress": "https://www.dropbox.com/sh/fekjadlse724ai4/AAA31bcCi0TUtC67Mlw_zV09a?dl=0",
+          "linkName": "More Photos"
+        }
+      }
+    },
+    "4": {
+      "id": "4",
+      "title": "Social Wine Ritual",
+      "photoCover": "./assets/ritual_1.jpg",
+      "projectType": "Master Elective Course",
+      "collaboration": "In collaboration with Charell Bos, Jelle-jan Groot,Tobias Hoffmann, Hillebrand Kessel, Claudine Pieters, Nicky Pronk, Coen Zeeuw",
+      "description": "As part of a university Master Elective on designing for rituals my group and I designed a Social Wine Ritual for a group of colleagues who do a Thursday Drink (borrel) together. The ritual is designed based on gestures that are acted throughout wine tasting sessions and it is performed in a circular table so that everyone can talk/look at each other simultaneously. Every week a different person from the group can be the host of the ritual and facilitate the initial pouring of the wine into the carafe. Guests also have the role to honour the person who is sitting on their left by pouring wine to their glass. ",
+      "keywords": {
+        "keyword1": "Expert sessions",
+        "keyword2": "Usability Testing",
+        "keyword3": "Mix Methods Processes",
+        "keyword4": "Prototyping",
+        "keyword5": "Fabricating"
+      },
+      "links": {
+        "linkA": {
+          "linkAddress": "https://www.dropbox.com/sh/b3xdmtz7bq91goo/AAByI6y53XsHKGd_mQJCptUXa?dl=0",
+          "linkName": "More Photos"
+        },
+        "linkB": {}
+      }
+    } 
+  }

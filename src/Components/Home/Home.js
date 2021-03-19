@@ -6,6 +6,7 @@ import UXPortfolio from "../UXPortfolio/UXPortfolio";
 import HomeTitle from "./HomeTitle";
 import HomeContent from "./HomeContent";
 import HomeLinks from "./HomeLinks";
+import projects from "../../db.json";
 
 const HomeWrapper = styled.div`
     height: 90vh;
@@ -29,7 +30,7 @@ export default function Home(){
                 <HomeLinks/>
            </div>
         </HomeWrapper>
-        <UXPortfolio/>
+        <UXPortfolio projects={projects}/>
         <DevPortfolio/>
     </>);
 }
