@@ -2,7 +2,7 @@ import React from "react";
 import '../../App.css';
 import styled from "styled-components";
 import UXPortfolio from "../UXPortfolio/UXPortfolio";
-import DevPortfolio from "../DevPortfolio/DevPortfolio";
+import DevPortfolio from "../../DevPortfolio";
 import HomeTitle from "./HomeTitle";
 import HomeContent from "./HomeContent";
 import HomeLinks from "./HomeLinks";
