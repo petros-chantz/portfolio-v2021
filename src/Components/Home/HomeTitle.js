@@ -14,6 +14,7 @@ const TitleWrapper = styled.div`
         letter-spacing: 1px;
     }
 
+
     .body-title-link{
         color: black;
         :hover{

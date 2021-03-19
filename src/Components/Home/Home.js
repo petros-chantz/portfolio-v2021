@@ -1,7 +1,7 @@
 import React from "react";
 import '../../App.css';
 import styled from "styled-components";
-import DEVPortfolio from "../DEVPortfolio/DEVPortfolio";
+import DevPortfolio from "../DevPortfolio/DevPortfolio";
 import UXPortfolio from "../UXPortfolio/UXPortfolio";
 import HomeTitle from "./HomeTitle";
 import HomeContent from "./HomeContent";
@@ -10,6 +10,7 @@ import HomeLinks from "./HomeLinks";
 const HomeWrapper = styled.div`
     height: 90vh;
     margin: 20px;
+    margin-top: 60px;
 
     .home-body{
         height: 80%;
@@ -29,7 +30,7 @@ export default function Home(){
            </div>
         </HomeWrapper>
         <UXPortfolio/>
-        <DEVPortfolio/>
+        <DevPortfolio/>
     </>);
 }
 

@@ -100,7 +100,7 @@ const NavBarWrapper = styled.div`
 export default function Navbar() {
 
     return (
-      <NavBarWrapper>
+      <NavBarWrapper id="top">
         <NavLink smooth to="/" >
          <div className="nav-name-wrapper">
           <h2 className="nav-name-text">Petros Chantzopoulos</h2>

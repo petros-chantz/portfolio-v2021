@@ -4,7 +4,7 @@ import Confetti from "react-dom-confetti";
 import styled from "styled-components";
 
 const DevPortfolioWrapper = styled.div`
-    height: 95vh;
+    height: 55vh;
     margin: 20px;
     display: grid;
     place-items: center;
@@ -59,7 +59,7 @@ const DevPortfolioWrapper = styled.div`
     }
 `;
 
-export default function DEVPortfolio(){
+export default function DevPortfolio(){
     const props = useSpring({
         opacity: 0.9,
         from: { opacity: 0 }
