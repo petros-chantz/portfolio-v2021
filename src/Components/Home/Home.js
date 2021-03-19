@@ -1,8 +1,8 @@
 import React from "react";
 import '../../App.css';
 import styled from "styled-components";
-import DevPortfolio from "../DevPortfolio/DevPortfolio";
 import UXPortfolio from "../UXPortfolio/UXPortfolio";
+import DevPortfolio from "../DevPortfolio/DevPortfolio";
 import HomeTitle from "./HomeTitle";
 import HomeContent from "./HomeContent";
 import HomeLinks from "./HomeLinks";
