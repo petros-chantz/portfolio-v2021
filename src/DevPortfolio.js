@@ -46,13 +46,13 @@ const DevPortfolioWrapper = styled.div`
                 border: none;
                 letter-spacing: 1px;
 
-                :hover{
-                    background-color: white;
-                    border: 2px solid black;
-                    letter-spacing: 1px;
-                    font-weight: 700;
-                    color: black;
-                }
+                // :hover{
+                //     background-color: white;
+                //     border: 2px solid black;
+                //     letter-spacing: 1px;
+                //     font-weight: 700;
+                //     color: black;
+                // }
             }
         }
 
