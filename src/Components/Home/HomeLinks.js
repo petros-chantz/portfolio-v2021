@@ -14,6 +14,10 @@ const HomeLinksWrapper = styled.div`
          text-align: justify;
     }
 
+    .links{
+        font-size: 17px;
+    }
+
     @media screen and (max-width: 800px){
             padding-top: 40px;
             grid-template-columns: repeat(3, 1fr);
