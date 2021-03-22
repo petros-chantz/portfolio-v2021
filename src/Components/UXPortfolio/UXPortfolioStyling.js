@@ -27,10 +27,10 @@ margin:20px;
 
     .body-content{
         height: 95%;
-        width:70%;
+        width: 70%;
         display:grid;
         grid-template-rows: repeat(4, 1fr);
-        grid-gap: 50px;
+        grid-gap: 40px;
     }
 
     .body-top{
