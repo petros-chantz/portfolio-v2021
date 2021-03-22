@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 //Project.js - ProjectWrapper
 export const ProjectWrapper =styled.div`
-border-radius: 5px;
-color: white;
-display: grid; 
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-grid-gap: 20px;
-color: black;
+    border-radius: 5px;
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    color: black;
+    // background-color: pink;
 `;
 
 //ProjectPhoto.js - ProjectPhotoWrapper
@@ -19,7 +19,7 @@ export const ProjectPhotoWrapper = styled.div`
 
 //ProjectPhoto.js - ProjectPhotoBox
 export const ProjectPhotoBox = styled.div`
-    height: 70%;
+    height: 75%;
     width: 100%;
     border-radius: 4px;
     box-shadow: 0px 10px 30px -5px rgba(0, 123, 255, 0.5);
@@ -30,10 +30,11 @@ export const ProjectPhotoBox = styled.div`
 
 //ProjectContent.js - ProjectContentWrapper
 export const ProjectContentWrapper =styled.div`
-    height: 100%;
+    // background-color: lightgreen;
+    height: 90%;
     padding: 10px;
     display: grid;
-    grid-template-rows: 1fr 2fr 50px 1fr;
+    grid-template-rows: 1fr 2fr 1fr 50px;
     grid-gap: 10px;
 
     .content-title{
@@ -59,6 +60,7 @@ export const ProjectContentWrapper =styled.div`
     }
 
     .content-description{
+        // background-color: lightpink;
         .description{
             font-size: 20px;
             text-align: justify;
@@ -66,21 +68,22 @@ export const ProjectContentWrapper =styled.div`
     }
 
     .content-links{
-        height:100%;
-        width:100%;
+        height: 100%;
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         place-items: center;
+        // background-color: lightblue;
     }
 `;
 
 //ProjectContentKeywords.js - ProjectKeywordsWrapper
 export const ProjectKeywordsWrapper = styled.div`
-height: 100%;
+height: 70%;
 display: grid;
 grid-template-rows: repeat(5, 1fr);
 place-items: center end;
-grid-gap: 2px;
+// background-color: yellow;
 
 .keyword{
   margin:0;
