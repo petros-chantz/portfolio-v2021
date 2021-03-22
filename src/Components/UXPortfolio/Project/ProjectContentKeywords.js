@@ -1,26 +1,6 @@
 import React from "react";
-import styled from "styled-components";
+import {ProjectKeywordsWrapper} from "./ProjextStyling";
 import { useSpring, animated } from "react-spring";
-
-const ProjectKeywordsWrapper = styled.div`
-height: 100%;
-display: grid;
-grid-template-rows: repeat(5, 1fr);
-place-items: center end;
-
-.keyword{
-  margin:0;
-  color: #888;
-  font-weight: 300;
-  font-size: 12px;
-}
-
-@media screen and (max-width: 500px){
-  .keyword{
-    font-size: 10px;
-  }
-}
-`;
 
 export default function ProjectContentKeywords(props){
     const {project } = props;

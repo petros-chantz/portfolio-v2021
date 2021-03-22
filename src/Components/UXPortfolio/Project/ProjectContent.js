@@ -1,51 +1,7 @@
 import React from "react";
-import styled from "styled-components";
 import ProjectContentKeywords from "./ProjectContentKeywords";
+import {ProjectContentWrapper} from "./ProjextStyling";
 
-const ProjectContentWrapper =styled.div`
-    height: 100%;
-    padding: 10px;
-    display: grid;
-    grid-template-rows: 1fr 2fr 50px 1fr;
-    grid-gap: 10px;
-
-    .content-title{
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-
-        .title-box{
-            display: grid;
-            place-items: center start;
-            .title{
-                font-weight: 700;
-                letter-spacing: 1px;
-            }
-        }
-        .subtitle-box{
-            display: grid;
-            place-items: center end;
-            .subTitle{
-                font-weight: 400;
-                
-            }
-        }
-    }
-
-    .content-description{
-        .description{
-            font-size: 20px;
-            text-align: justify;
-        }
-    }
-
-    .content-links{
-        height:100%;
-        width:100%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        place-items: center;
-    }
-`;
 export default function ProjectContent(props){
     const {project} = props;
     return(

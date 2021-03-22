@@ -1,32 +1,6 @@
 import React from "react";
-import styled from "styled-components";
 import { useSpring, animated } from "react-spring";
-
-const TitleWrapper = styled.div`
-    height: 100%;
-    display: grid;
-    place-items: center;
-
-    .title{
-        margin: 0;
-        font-size: 50px;
-        font-weight: 700;
-        letter-spacing: 1px;
-    }
-
-
-    .body-title-link{
-        color: black;
-        :hover{
-            color: #007bff;
-        }
-    }
-
-    @media screen and (max-width: 500px){
-            .title{
-                font-size: 50px !important;
-            }
-`;
+import {TitleWrapper} from "./HomeStyling"
 
 export default function HomeTitle(){
 

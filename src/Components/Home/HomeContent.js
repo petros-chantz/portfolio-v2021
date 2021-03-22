@@ -1,51 +1,7 @@
 import React from "react";
-import styled from "styled-components";
 import { useSpring, animated } from "react-spring";
 import HomeContentPhoto from "./HomeContentPhoto";
-
-const HomeContentWrapper = styled.div`
-    height: 100%;
-    width: 100%;
-    display: grid;
-    padding-left: 50px;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    place-items: center;
-    
-    .textBox-info{
-        padding-top: 30px;
-        display: grid;
-        place-items: center start;
-        line-height: 2.2;
-
-        .text {
-            font-size: 20px;
-            text-align: justify;
-            letter-spacing: 1px;
-        }
-
-        .text-bold{
-            font-weight: 700;
-        }
-
-        .text-blue{
-            font-weight: 700;
-            color: #007bff;
-        }
-    }
-
-
-    @media screen and (max-width: 500px){
-            grid-template-rows: 1fr 300px;
-
-            .textBox-info {
-                padding-top: 20px;
-                .text{
-                    font-size: 18px !important;
-                    text-align: left !important;
-                }
-            }
-    }
-`;
+import {HomeContentWrapper} from "./HomeStyling";
 
 export default function HomeContent(){
     const props = useSpring({

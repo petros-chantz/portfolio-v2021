@@ -1,25 +1,12 @@
 import React from "react";
 import '../../App.css';
-import styled from "styled-components";
 import UXPortfolio from "../UXPortfolio/UXPortfolio";
-import DevPortfolio from "../../DevPortfolio";
+import {HomeWrapper} from "./HomeStyling";
 import HomeTitle from "./HomeTitle";
 import HomeContent from "./HomeContent";
 import HomeLinks from "./HomeLinks";
 import projects from "../../db.json";
-
-const HomeWrapper = styled.div`
-    height: 90vh;
-    margin: 20px;
-    margin-top: 60px;
-
-    .home-body{
-        height: 80%;
-        display: grid;
-        grid-template-rows: 1fr 3fr 1fr;
-       
-    }
-`;
+import DevPortfolio from "../Dev/DevPortfolio";
 
 export default function Home(){
     return(<>
