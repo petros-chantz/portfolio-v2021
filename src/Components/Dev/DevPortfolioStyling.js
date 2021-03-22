@@ -44,8 +44,9 @@ export const DevPortfolioWrapper = styled.div`
                 border: none;
                 letter-spacing: 1px;
 
-                :hover{
+                :active{
                     background-color: white;
+                    padding: 20px 30px 20px 30px;
                     border: 2px solid black;
                     letter-spacing: 1px;
                     font-weight: 700;
