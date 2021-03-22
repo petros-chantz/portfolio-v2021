@@ -15,7 +15,7 @@ export default function UXPortfolio(props){
         <UXPortfolioWrapper id="ux-portfolio">
             <animated.div className="body" style={ani}>
                 <div className="body-title">
-                    <h1 className="title">UX Portfolio - Selected Work</h1>
+                    <h1 className="title">Design Projects - Selected Work</h1>
                 </div>
                 <div className="body-content">
                     {Object.keys(projects).map((id) => {
