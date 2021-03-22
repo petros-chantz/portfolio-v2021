@@ -1,6 +1,47 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
+<<<<<<< HEAD
 import {HomeLinksWrapper} from "./HomeStyling";
+=======
+
+const HomeLinksWrapper = styled.div`
+    height: 100%;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+
+    .link-text{
+        margin:0;
+         text-align: justify;
+    }
+
+    .links{
+        font-size: 17px;
+    }
+
+    @media screen and (max-width: 800px){
+            padding-top: 40px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+
+            .link-text{
+                font-size: 12px;
+            }
+    }
+
+    @media screen and (max-width: 500px){
+            grid-template-rows: repeat(4, 1fr);
+            grid-template-columns: 1fr !important;
+            place-items: start !important;
+            padding-bottom: 20px;
+            
+            link-text{
+                font-size: 15px;
+            }
+    }
+`;
+>>>>>>> 3d3f610e218361fd2d0591bd384b0234c52cb748
 
 export default function HomeLinks(){
     const props = useSpring({
