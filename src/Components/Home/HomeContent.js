@@ -12,7 +12,7 @@ export default function HomeContent(){
     return(
         <HomeContentWrapper>
                 <div className="textBox-info">
-                    <animated.h3 style={props} className="text">I’m a span <span className="text-bold">UX Researcher</span> and an all-around <span className="text-bold">Creative Technologist</span>. </animated.h3>
+                    <animated.h3 style={props} className="text">I’m a <span className="text-bold">UX Researcher</span> and an all-around <span className="text-bold">Creative Technologist</span>. </animated.h3>
                     <br/>
                     <animated.h3 style={props} className="text">I hold a Master's Degree in Constructive Design Research from Technical University 
                     of Eindhoven and I have 3+ years experience in conducting various design and research projects for clients. I take a hands-on approach to research with emphasis on the use of data as a design material.

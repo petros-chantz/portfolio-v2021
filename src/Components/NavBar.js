@@ -12,16 +12,18 @@ export default function Navbar() {
           <h2 className="nav-name-text">Petros Chantzopoulos</h2>
          </div>
         </NavLink>
-        <HashLink smooth to="/#ux-portfolio">
-        <div className="nav-portfolio-wrapper">
-          <h5 className="nav-portfolio-text">Design Projects</h5>
-         </div>
-        </HashLink>
-        <HashLink smooth to="/#dev-portfolio">
-        <div className="nav-react-wrapper">
-          <h5 className="nav-react-text">Dev Portfolio</h5>
-         </div>
-        </HashLink>
+        <div className="portfolios">
+            <HashLink smooth to="/#ux-portfolio">
+            <div className="nav-portfolio-wrapper">
+              <h5 className="nav-portfolio-text">Design Projects</h5>
+             </div>
+            </HashLink>
+            <HashLink smooth to="/#dev-portfolio">
+            <div className="nav-portfolio-wrapper">
+              <h5 className="nav-portfolio-text">Dev Portfolio</h5>
+             </div>
+            </HashLink>
+        </div>
 
       </NavBarWrapper>
     );
