@@ -2,17 +2,47 @@ import styled from "styled-components";
 
 //DevPortfolio.js DevPortfolioWrapper
 export const DevPortfolioWrapper = styled.div`
-    height: 70vh;
+    height: 90vh;
     margin: 20px;
     display: grid;
     place-items: center;
 
+    @media screen and (max-width: 759px){
+        .body{
+            height: 90% !important;
+            width: 95% !important;
+            .body-404{
+                .text-404{
+                    font-size: 100px !important;
+                    font-weight: 900;
+                    letter-spacing: 15px;
+                
+                }
+            }
+        }
+    }
+
     .body{
-        height: 60%;
+        height: 65%;
         width: 70%;
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 150px 1fr 1fr 1fr;
         color: black;
+
+
+
+        .body-404{
+            display: grid;
+            place-items: center center;
+            padding-bottom: 40px;
+
+            .text-404{
+                font-size: 140px;
+                font-weight: 900;
+                letter-spacing: 15px;
+                font-style: italic;
+            }
+        }
 
         .body-text-title{
             display: grid;

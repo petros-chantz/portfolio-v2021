@@ -18,7 +18,7 @@ export default function Navbar() {
               <h5 className="nav-portfolio-text">Design Projects</h5>
              </div>
             </HashLink>
-            <HashLink smooth to="/#dev-portfolio">
+            <HashLink to="/dev-portfolio">
             <div className="nav-portfolio-wrapper">
               <h5 className="nav-portfolio-text">Dev Portfolio</h5>
              </div>
