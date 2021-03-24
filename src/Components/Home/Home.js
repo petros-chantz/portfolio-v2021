@@ -1,6 +1,6 @@
 import React from "react";
 import '../../App.css';
-import UXPortfolio from "../UXPortfolio/UXPortfolio";
+import DesignPortfolio from "../Design/DesignPortfolio";
 import {HomeWrapper} from "./HomeStyling";
 import HomeTitle from "./HomeTitle";
 import HomeContent from "./HomeContent";
@@ -17,7 +17,7 @@ export default function Home(){
                 <HomeLinks/>
            </div>
         </HomeWrapper>
-        <UXPortfolio projects={projects}/>
+        <DesignPortfolio projects={projects}/>
         <DevPortfolio/>
     </>);
 }

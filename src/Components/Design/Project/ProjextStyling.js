@@ -2,12 +2,28 @@ import styled from "styled-components";
 
 //Project.js - ProjectWrapper
 export const ProjectWrapper =styled.div`
-    border-radius: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
     color: black;
-    // background-color: pink;
+
+     @media screen and (max-width: 768px){
+         grid-template-rows: repeat(2, 1fr);
+         grid-gap: 5px;
+     }
+
+     @media screen and (max-width: 430px){
+        padding-left: 10px;
+        padding-right: 10px;
+        grid-template-rows: 500px 1fr;
+        grid-gap: 5px;
+    }
+
+    @media screen and (max-width: 320px){
+        grid-template-rows: 250px 1fr;
+    }
 `;
 
 //ProjectPhoto.js - ProjectPhotoWrapper
@@ -30,12 +46,27 @@ export const ProjectPhotoBox = styled.div`
 
 //ProjectContent.js - ProjectContentWrapper
 export const ProjectContentWrapper =styled.div`
-    // background-color: lightgreen;
     height: 90%;
     padding: 10px;
     display: grid;
     grid-template-rows: 1fr 2fr 1fr 50px;
     grid-gap: 10px;
+
+    @media screen and (max-width: 425px){
+        padding: 0px;
+        grid-template-rows: 80px 1fr 100px 50px;
+        grid-gap: 10px;
+
+        .content-description{
+            .description{
+                font-size: 15px !important;
+            }
+        }
+
+        .content-links{
+            font-size: 12px;
+        }
+    }
 
     .content-title{
         display: grid;
@@ -60,7 +91,6 @@ export const ProjectContentWrapper =styled.div`
     }
 
     .content-description{
-        // background-color: lightpink;
         .description{
             font-size: 20px;
             text-align: justify;
@@ -73,20 +103,21 @@ export const ProjectContentWrapper =styled.div`
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         place-items: center;
-        // background-color: lightblue;
     }
+
+
 `;
 
 //ProjectContentKeywords.js - ProjectKeywordsWrapper
 export const ProjectKeywordsWrapper = styled.div`
-height: 70%;
+height: 75%;
 display: grid;
 grid-template-rows: repeat(5, 1fr);
+grid-gap: 1px;
 place-items: center end;
-// background-color: yellow;
 
 .keyword{
-  margin:0;
+  margin: 0;
   color: #888;
   font-weight: 300;
   font-size: 12px;

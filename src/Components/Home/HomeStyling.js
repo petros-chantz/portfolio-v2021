@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 //Home.JS HOMEWRAPPER
 export const HomeWrapper = styled.div`
-height: 85vh;
 margin: 20px;
 margin-top: 60px;
 
@@ -12,25 +11,26 @@ margin-top: 60px;
     grid-template-rows: 1fr 3fr 1fr;
    
 }
-@media screen and (max-width: 1100px){
-    height: 110vh;
-  }
 
-@media screen and (max-width: 800px){
-    height: 140vh;
+@media screen and (min-width: 1600px){
+    margin-bottom: 140px;
+}
+
+@media screen and (min-width: 1030px) and (max-width: 1559px){
+    margin-bottom: 20px;
     .home-body{
-        grid-template-columns: 95%;
-        place-items: center;
+        grid-template-rows: 1fr 4fr 1fr;
     }
 }
 
- @media screen and (max-width: 500px){
-    height: 150vh;
-  }
+@media screen and (min-width: 425px) and (max-width: 759px){
+    .home-body{
+        grid-template-rows: 1fr 6fr 1fr;
+        grid-template-columns: 100%;
+    }
+}
 
-  @media screen and (max-width: 350px){
-    height: 160vh;
-  }
+
 
 `;
 
@@ -82,18 +82,19 @@ export const HomeContentWrapper = styled.div`
     @media screen and (max-width: 500px){
         grid-gap: 30px;
         .textBox-info {
-            padding-top: 20px;
-            width: 80%;
+            padding-top: 0px;
+             width: 80%;
             .text{
                 font-size: 16px !important;
-                // text-align: left !important;
             }
         }
     }
 
-    @media screen and (max-width: 350px){
+    @media screen and (max-width: 375px){
+        grid-template-columns: 1fr;
         .textBox-info {
-            width: 60%;
+            padding-top: 0px;
+            width: 100%;
             .text{
                 font-size: 15px !important;
             }
