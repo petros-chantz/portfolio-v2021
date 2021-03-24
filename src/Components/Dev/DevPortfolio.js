@@ -32,6 +32,7 @@ export default function DevPortfolio(){
     return(
         <DevPortfolioWrapper id="dev-portfolio">
             <animated.div style={props} className="body">
+                <div className="body-404"><h2 className="text-404">404</h2></div>
                 <div className="body-text-title"><h2 className="title">Oops sorry!</h2></div>
                 <h3 className="body-text">This page isn't ready yet, but the <span className="confetti">confetti cannon</span> is!</h3>
                 <div className="body-confetti">

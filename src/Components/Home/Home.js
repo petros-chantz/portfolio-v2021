@@ -6,7 +6,6 @@ import HomeTitle from "./HomeTitle";
 import HomeContent from "./HomeContent";
 import HomeLinks from "./HomeLinks";
 import projects from "../../db.json";
-import DevPortfolio from "../Dev/DevPortfolio";
 
 export default function Home(){
     return(<>
@@ -18,7 +17,6 @@ export default function Home(){
            </div>
         </HomeWrapper>
         <DesignPortfolio projects={projects}/>
-        <DevPortfolio/>
     </>);
 }
 
