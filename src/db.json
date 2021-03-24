@@ -97,5 +97,27 @@
         },
         "linkB": {}
       }
-    } 
+    }, 
+    "5": {
+      "id": "5",
+      "title": "Social Wine Ritual",
+      "photoCover": "./assets/ritual_1.jpg",
+      "projectType": "Master Elective Course",
+      "collaboration": "In collaboration with Charell Bos, Jelle-jan Groot,Tobias Hoffmann, Hillebrand Kessel, Claudine Pieters, Nicky Pronk, Coen Zeeuw",
+      "description": "As part of a university Master Elective on designing for rituals my group and I designed a Social Wine Ritual for a group of colleagues who do a Thursday Drink (borrel) together. The ritual is designed based on gestures that are acted throughout wine tasting sessions and it is performed in a circular table so that everyone can talk/look at each other simultaneously. Every week a different person from the group can be the host of the ritual and facilitate the initial pouring of the wine into the carafe. Guests also have the role to honour the person who is sitting on their left by pouring wine to their glass. ",
+      "keywords": {
+        "keyword1": "Expert sessions",
+        "keyword2": "Usability Testing",
+        "keyword3": "Mix Methods Processes",
+        "keyword4": "Prototyping",
+        "keyword5": "Fabricating"
+      },
+      "links": {
+        "linkA": {
+          "linkAddress": "https://www.dropbox.com/sh/b3xdmtz7bq91goo/AAByI6y53XsHKGd_mQJCptUXa?dl=0",
+          "linkName": "more Photos"
+        },
+        "linkB": {}
+      }
+    }
   }
