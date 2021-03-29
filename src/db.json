@@ -17,7 +17,7 @@
       "links": {
         "linkA": {
           "linkAddress": "https://www.dropbox.com/s/lnno0g9yk5ww32a/JoyStcik%20CHI%20paper.pdf?dl=0",
-          "linkName": "submitted CHI Paper"
+          "linkName": "submitted CHI paper"
         },
         "linkB": {
             "linkAddress": "https://www.dropbox.com",
@@ -29,7 +29,7 @@
       "id": "2",
       "title": "AudioTales",
       "photoCover": "./assets/audioTales-1.jpg",
-      "projectType": "Group project",
+      "projectType": "Master Group Project",
       "collaboration": "In collaboration with Galina Petrova, Liyu Ruan, Jules Rutten",
       "description": "Audio Tales is a smart home system created to motivate children to perform daily tasks through immersive and interactive storytelling. It contains speakers and tags which can be placed in different locations inside the home. Thus it provides  personalized storytelling according to the daily tasks’ children need to perform (e.g brush their teeth, make their bed etc). Within this project it was my first time working with smart adaptive systems, visualizing datasets, using fetch API to add and  manipulate the behaviour and interaction of our prototypes. ",
       "keywords": {
@@ -78,10 +78,9 @@
     },
     "4": {
       "id": "4",
-      "title": "Social Wine Ritual",
-      "photoCover": "./assets/ritual_1.jpg",
-      "projectType": "Master Elective Course",
-      "collaboration": "In collaboration with Charell Bos, Jelle-jan Groot,Tobias Hoffmann, Hillebrand Kessel, Claudine Pieters, Nicky Pronk, Coen Zeeuw",
+      "title": "Rethinkng Knitting Interfaces",
+      "photoCover": "./assets/Master_05.jpg",
+      "projectType": "Individual Master Project",
       "description": "As part of a university Master Elective on designing for rituals my group and I designed a Social Wine Ritual for a group of colleagues who do a Thursday Drink (borrel) together. The ritual is designed based on gestures that are acted throughout wine tasting sessions and it is performed in a circular table so that everyone can talk/look at each other simultaneously. Every week a different person from the group can be the host of the ritual and facilitate the initial pouring of the wine into the carafe. Guests also have the role to honour the person who is sitting on their left by pouring wine to their glass. ",
       "keywords": {
         "keyword1": "Expert sessions",
@@ -93,16 +92,16 @@
       "links": {
         "linkA": {
           "linkAddress": "https://www.dropbox.com/sh/b3xdmtz7bq91goo/AAByI6y53XsHKGd_mQJCptUXa?dl=0",
-          "linkName": "more Photos"
+          "linkName": "more photos"
         },
         "linkB": {}
       }
     }, 
     "5": {
       "id": "5",
-      "title": "Social Wine Ritual",
-      "photoCover": "./assets/ritual_1.jpg",
-      "projectType": "Master Elective Course",
+      "title": "Towards digital craftsmanship",
+      "photoCover": "./assets/prototype_FBP_C.jpg",
+      "projectType": "Final Bachelor Project",
       "collaboration": "In collaboration with Charell Bos, Jelle-jan Groot,Tobias Hoffmann, Hillebrand Kessel, Claudine Pieters, Nicky Pronk, Coen Zeeuw",
       "description": "As part of a university Master Elective on designing for rituals my group and I designed a Social Wine Ritual for a group of colleagues who do a Thursday Drink (borrel) together. The ritual is designed based on gestures that are acted throughout wine tasting sessions and it is performed in a circular table so that everyone can talk/look at each other simultaneously. Every week a different person from the group can be the host of the ritual and facilitate the initial pouring of the wine into the carafe. Guests also have the role to honour the person who is sitting on their left by pouring wine to their glass. ",
       "keywords": {
@@ -115,9 +114,12 @@
       "links": {
         "linkA": {
           "linkAddress": "https://www.dropbox.com/sh/b3xdmtz7bq91goo/AAByI6y53XsHKGd_mQJCptUXa?dl=0",
-          "linkName": "more Photos"
+          "linkName": "report"
         },
-        "linkB": {}
+        "linkB": {
+          "linkAddress": "https://www.dropbox.com/sh/b3xdmtz7bq91goo/AAByI6y53XsHKGd_mQJCptUXa?dl=0",
+          "linkName": "more photos"
+        }
       }
     }
   }
