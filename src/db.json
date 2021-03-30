@@ -16,7 +16,7 @@
       },
       "links": {
         "linkA": {
-          "linkAddress": "https://www.dropbox.com/s/lnno0g9yk5ww32a/JoyStcik%20CHI%20paper.pdf?dl=0",
+          "linkAddress": "./PDF/JoyStcik CHI paper.pdf",
           "linkName": "submitted CHI paper"
         },
         "linkB": {
@@ -41,7 +41,7 @@
       },
       "links": {
         "linkA": {
-          "linkAddress": "https://www.dropbox.com/s/trumfy8s9hrmv7l/Audio%20Tales%20-%20Final%20Report.pdf?dl=0",
+          "linkAddress": "./PDF/Audio Tales - Final Report.pdf",
           "linkName": "report"
         },
         "linkB": {
@@ -67,7 +67,7 @@
       },
       "links": {
         "linkA": {
-          "linkAddress": "https://www.dropbox.com/s/qqgji53go3c222v/DCM170_2018_Presentation_Group6_Chantzopoulou_Loos.pdf?dl=0",
+          "linkAddress": "./PDF/DCM170_2018_Pictorial_Group6_Chantzopoulos_Loos.pdf",
           "linkName": "report"
         },
         "linkB": {
@@ -113,7 +113,7 @@
       },
       "links": {
         "linkA": {
-          "linkAddress": "https://www.dropbox.com/sh/b3xdmtz7bq91goo/AAByI6y53XsHKGd_mQJCptUXa?dl=0",
+          "linkAddress": "./PDF/Petros Chantzopoulos Final Bachelor Report.pdf",
           "linkName": "report"
         },
         "linkB": {

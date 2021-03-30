@@ -11,7 +11,7 @@ export default function HomeLinks(){
     return(
         <HomeLinksWrapper>     
             <div><animated.p style={props} className="link-text links">petros.chantz [at] gmail [dot] com</animated.p></div>
-            <div><animated.a style={props} href="https://www.dropbox.com/s/nwqsbf8jngvaun9/Petros-Chantzopoulos.pdf?dl=0" target="_blank" rel="noopener noreferrer" className="links">cv</animated.a></div>
+            <div><animated.a style={props} href="./PDF/Petros-Chantzopoulos.pdf" target="_blank" rel="noopener noreferrer" className="links">cv</animated.a></div>
             <div><animated.a style={props} href="https://www.linkedin.com/in/petroschantz/" target="_blank" rel="noopener noreferrer" className="links">linkedIn</animated.a></div>
             <div><animated.a style={props} href="https://github.com/petros-chantz" target="_blank" rel="noopener noreferrer" className="links">github</animated.a></div> 
         </HomeLinksWrapper>
