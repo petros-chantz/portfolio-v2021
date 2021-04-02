@@ -3,7 +3,7 @@
     "1": {
       "id": "1",
       "title": "JoyStick",
-      "photoCover": "./assets/joyStick.jpg",
+      "photoCover": "./assets/Projects/joyStick.jpg",
       "projectType": "Master Elective Course",
       "collaboration": "In collaboration with Annemiek Veldhuis",
       "description": " JoyStick is a self-contained, network connected tangible sleep quality measuring device for the home setting. Most existing sleep quality measuring devices are aimed at the lab setting and especially targeted to be operated by adults. JoyStick makes it easier for adults and children to engage in a short psychomotor vigilance test right after they have woken up. Due to the success of the designed device JoyStick became a CHI submission. ",
@@ -16,11 +16,11 @@
       },
       "links": {
         "linkA": {
-          "linkAddress": "./PDF/JoyStcik CHI paper.pdf",
+          "linkAddress": "./assets/PDF/JoyStick CHI paper.pdf",
           "linkName": "submitted CHI paper"
         },
         "linkB": {
-            "linkAddress": "https://www.dropbox.com",
+            "linkAddress": "https://www.dropbox.com/sh/wekaqf05q9d3j82/AAAs0nITUqTGuhWSayxcFZQna?dl=0",
             "linkName": "more photos"
         }
       }
@@ -28,10 +28,10 @@
     "2": {
       "id": "2",
       "title": "AudioTales",
-      "photoCover": "./assets/audioTales-1.jpg",
+      "photoCover": "./assets/Projects/audioTales-1.jpg",
       "projectType": "Master Group Project",
       "collaboration": "In collaboration with Galina Petrova, Liyu Ruan, Jules Rutten",
-      "description": "Audio Tales is a smart home system created to motivate children to perform daily tasks through immersive and interactive storytelling. It contains speakers and tags which can be placed in different locations inside the home. Thus it provides  personalized storytelling according to the daily tasks’ children need to perform (e.g brush their teeth, make their bed etc). Within this project it was my first time working with smart adaptive systems, visualizing datasets, using fetch API to add and  manipulate the behaviour and interaction of our prototypes. ",
+      "description": "AudioTales is a smart home system created to motivate children to perform daily tasks through immersive and interactive storytelling. It contains speakers and tags which can be placed in different locations inside the home. Thus it provides  personalized storytelling according to the daily tasks’ children need to perform (e.g brush their teeth, make their bed etc). Within this project it was my first time working with smart adaptive systems, visualizing datasets, using fetch API to add and  manipulate the behaviour and interaction of our prototypes. ",
       "keywords": {
         "keyword1": "Mix Methods Processes",
         "keyword2": "User Testing & Evaluation",
@@ -41,7 +41,7 @@
       },
       "links": {
         "linkA": {
-          "linkAddress": "./PDF/Audio Tales - Final Report.pdf",
+          "linkAddress": "./assets/PDF/Audio Tales - Final Report.pdf",
           "linkName": "report"
         },
         "linkB": {
@@ -53,7 +53,7 @@
     "3": {
       "id": "3",
       "title": "Being Honest",
-      "photoCover": "./assets/honest_5.JPG",
+      "photoCover": "./assets/Projects/honest_5.JPG",
       "projectType": "Master Elective Course",
       "collaboration": "In collaboration with: Minerva Loos",
       "description": "Inspired by the authors Strengers, Y., & Nicholls, L. [(2017). Convenience and energy consumption in the smart home of the future: Industry visions from australia and beyond. Energy Research & Social Science, 32, 86-93] we set out to explore the question of what would happen if smart products in the home weren’t honest. We conducted a critical inquiry study where we designed a ‘smart cup’ with randomised behaviour and tested it within participants’ homes and working areas. Our findings showcase that people’s behaviours are shaped and influenced by the narratives that smart devices push. At the same time people also have very specific expectations on the devices themselves, to be and act in a ‘smart’ way.",
@@ -66,7 +66,7 @@
       },
       "links": {
         "linkA": {
-          "linkAddress": "./PDF/DCM170_2018_Pictorial_Group6_Chantzopoulos_Loos.pdf",
+          "linkAddress": "./assets/PDF/DCM170_2018_Pictorial_Group6_Chantzopoulos_Loos.pdf",
           "linkName": "report"
         },
         "linkB": {
@@ -78,7 +78,7 @@
     "4": {
       "id": "4",
       "title": "Rethinkng Knitting Interfaces",
-      "photoCover": "./assets/Master_05.jpg",
+      "photoCover": "./assets/Projects/Master_05.jpg",
       "projectType": "Individual Master Project",
       "description": "Industrial textile machine interfaces have been called a lot of names but for the operators who use them everyday they are commonly known as a pain in the *ss. Among plenty of things they are hard to learn, clanky, prone to failure and highly outdated. Having gathered plenty of information and feedback from operators over a previous project I decided to build an experimental new interface to tackle these issues. The new interface is mainly focusing on letting the operator know beforehand if there is an error in the machine asap as this is the most annoying and common problem they face. ",
       "keywords": {
@@ -90,7 +90,7 @@
       },
       "links": {
         "linkA": {
-          "linkAddress": "https://www.dropbox.com/sh/b3xdmtz7bq91goo/AAByI6y53XsHKGd_mQJCptUXa?dl=0",
+          "linkAddress": "https://www.dropbox.com/sh/f8pjee3cgyktngw/AAANcOLYA-hMjyUW9F5fSRF9a?dl=0",
           "linkName": "more photos"
         },
         "linkB": {}
@@ -99,7 +99,7 @@
     "5": {
       "id": "5",
       "title": "In-store Customization",
-      "photoCover": "./assets/prototype_FBP_C.jpg",
+      "photoCover": "./assets/Projects/prototype_FBP_C.jpg",
       "projectType": "Final Bachelor Project",
       "description": "Nowadays traditional in-store retail experiences have suffered a great loss from the popularity and convenience of shopping digitally. Within this project I investigated the possibilities and limitations of introducing in-store customization to athletic footwear stores. I designed and developed a mockup of a new type of knitting machine that would allow the customer to customize and create on the spot their knitted shoes. I had expert sessions with various knitting experts, footwear designers and fashion trendsetters across the NL and EU to receive feedback on my concept and get their opinions about the future of retail. ",
       "keywords": {
@@ -111,7 +111,7 @@
       },
       "links": {
         "linkA": {
-          "linkAddress": "./PDF/Petros Chantzopoulos Final Bachelor Report.pdf",
+          "linkAddress": "./assets/PDF/Petros Chantzopoulos Final Bachelor Report.pdf",
           "linkName": "report"
         },
         "linkB": {
