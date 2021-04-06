@@ -41,7 +41,7 @@
       },
       "links": {
         "linkA": {
-          "linkAddress": "./assets/PDF/Audio Tales - Final Report.pdf",
+          "linkAddress": "./assets/PDF/Audio Tales_Final Report.pdf",
           "linkName": "report"
         },
         "linkB": {
@@ -53,7 +53,7 @@
     "3": {
       "id": "3",
       "title": "Being Honest",
-      "photoCover": "./assets/Projects/honest_5.JPG",
+      "photoCover": "./assets/Projects/honest_5.jpg",
       "projectType": "Master Elective Course",
       "collaboration": "In collaboration with: Minerva Loos",
       "description": "Inspired by the authors Strengers, Y., & Nicholls, L. [(2017). Convenience and energy consumption in the smart home of the future: Industry visions from australia and beyond. Energy Research & Social Science, 32, 86-93] we set out to explore the question of what would happen if smart products in the home weren’t honest. We conducted a critical inquiry study where we designed a ‘smart cup’ with randomised behaviour and tested it within participants’ homes and working areas. Our findings showcase that people’s behaviours are shaped and influenced by the narratives that smart devices push. At the same time people also have very specific expectations on the devices themselves, to be and act in a ‘smart’ way.",

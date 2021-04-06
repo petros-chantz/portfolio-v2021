@@ -139,7 +139,7 @@ export const HomeContentPhotoWrapper = styled.div`
         height: 30ch;
         background: black;
         border-radius: 5px;
-        background-image: url('/assets/me.JPG');
+        background-image: url('/assets/me.jpg');
         background-size: cover;
         background-position: center center;
         box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
