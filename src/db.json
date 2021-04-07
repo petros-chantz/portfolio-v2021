@@ -3,7 +3,7 @@
     "1": {
       "id": "1",
       "title": "JoyStick",
-      "photoCover": "./assets/Projects/joyStick.jpg",
+      "photoCover": "./assets/Projects/joyStick-resized.jpg",
       "projectType": "Master Elective Course",
       "collaboration": "In collaboration with Annemiek Veldhuis",
       "description": " JoyStick is a self-contained, network connected tangible sleep quality measuring device for the home setting. Most existing sleep quality measuring devices are aimed at the lab setting and especially targeted to be operated by adults. JoyStick makes it easier for adults and children to engage in a short psychomotor vigilance test right after they have woken up. Due to the success of the designed device JoyStick became a CHI submission. ",
@@ -28,7 +28,7 @@
     "2": {
       "id": "2",
       "title": "AudioTales",
-      "photoCover": "./assets/Projects/audioTales-1.jpg",
+      "photoCover": "./assets/Projects/audioTales-1-resized.jpg",
       "projectType": "Master Group Project",
       "collaboration": "In collaboration with Galina Petrova, Liyu Ruan, Jules Rutten",
       "description": "AudioTales is a smart home system created to motivate children to perform daily tasks through immersive and interactive storytelling. It contains speakers and tags which can be placed in different locations inside the home. Thus it provides  personalized storytelling according to the daily tasks’ children need to perform (e.g brush their teeth, make their bed etc). Within this project it was my first time working with smart adaptive systems, visualizing datasets, using fetch API to add and  manipulate the behaviour and interaction of our prototypes. ",
@@ -53,7 +53,7 @@
     "3": {
       "id": "3",
       "title": "Being Honest",
-      "photoCover": "./assets/Projects/honest_5.jpg",
+      "photoCover": "./assets/Projects/honest_5-resized.jpg",
       "projectType": "Master Elective Course",
       "collaboration": "In collaboration with: Minerva Loos",
       "description": "Inspired by the authors Strengers, Y., & Nicholls, L. [(2017). Convenience and energy consumption in the smart home of the future: Industry visions from australia and beyond. Energy Research & Social Science, 32, 86-93] we set out to explore the question of what would happen if smart products in the home weren’t honest. We conducted a critical inquiry study where we designed a ‘smart cup’ with randomised behaviour and tested it within participants’ homes and working areas. Our findings showcase that people’s behaviours are shaped and influenced by the narratives that smart devices push. At the same time people also have very specific expectations on the devices themselves, to be and act in a ‘smart’ way.",
