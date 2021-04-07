@@ -16,7 +16,7 @@
       },
       "links": {
         "linkA": {
-          "linkAddress": "./assets/PDF/JoyStick CHI paper.pdf",
+          "linkAddress": "./assets/pdf/JoyStick_CHI_paper.pdf",
           "linkName": "submitted CHI paper"
         },
         "linkB": {
@@ -41,7 +41,7 @@
       },
       "links": {
         "linkA": {
-          "linkAddress": "./assets/PDF/Audio Tales_Final Report.pdf",
+          "linkAddress": "./assets/pdf/Audio_Tales_Final_Report.pdf",
           "linkName": "report"
         },
         "linkB": {
@@ -66,7 +66,7 @@
       },
       "links": {
         "linkA": {
-          "linkAddress": "./assets/PDF/DCM170_2018_Pictorial_Group6_Chantzopoulos_Loos.pdf",
+          "linkAddress": "./assets/pdf/DCM170_2018_Pictorial_Group6_Chantzopoulos_Loos.pdf",
           "linkName": "report"
         },
         "linkB": {
@@ -111,7 +111,7 @@
       },
       "links": {
         "linkA": {
-          "linkAddress": "./assets/PDF/Petros Chantzopoulos Final Bachelor Report.pdf",
+          "linkAddress": "./assets/pdf/Petros_Chantzopoulos_Final_Bachelor_Report.pdf",
           "linkName": "report"
         },
         "linkB": {

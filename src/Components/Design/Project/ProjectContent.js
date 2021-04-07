@@ -16,7 +16,7 @@ export default function ProjectContent(props){
         </div>
         <ProjectContentKeywords project={project}/>
         <div className="content-links">
-            <a href={project.links.linkA.linkAddress} className="" target="_blank" rel="noopener noreferrer">{project.links.linkA.linkName}</a>
+            <a href={project.links.linkA.linkAddress} download className="" target="_blank" rel="noopener noreferrer">{project.links.linkA.linkName}</a>
             <a href={project.links.linkB.linkAddress} className="" target="_blank" rel="noopener noreferrer">{project.links.linkB.linkName}</a>
         </div>
     </ProjectContentWrapper>
