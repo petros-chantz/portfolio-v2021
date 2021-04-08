@@ -1,10 +1,10 @@
 import React from "react";
 import ProjectContentKeywords from "./ProjectContentKeywords";
 import { ProjectContentWrapper } from "./ProjextStyling";
-import pdf from "./../../../pdf/Petros-Chantzopoulos-CV.pdf";
 
 export default function ProjectContent(props){
-    const {project} = props;
+    const { project } = props;
+    
     return(
     <ProjectContentWrapper>
         <div className="content-title">
@@ -17,8 +17,8 @@ export default function ProjectContent(props){
         </div>
         <ProjectContentKeywords project={project}/>
             <div className="content-links">
-           
-            <a href={pdf} type="application/pdf" className="" target="_blank" rel="noopener noreferrer" >{project.links.linkA.linkName}</a>
+            
+            <a href={project.links.linkA.linkAddress}  className="" target="_blank" rel="noopener noreferrer" >{project.links.linkA.linkName}</a>
             <a href={project.links.linkB.linkAddress} className="" target="_blank" rel="noopener noreferrer">{project.links.linkB.linkName}</a>
         </div>
     </ProjectContentWrapper>
