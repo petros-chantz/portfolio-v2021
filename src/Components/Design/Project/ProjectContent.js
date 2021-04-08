@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectContentKeywords from "./ProjectContentKeywords";
 import { ProjectContentWrapper } from "./ProjextStyling";
-// import pdf from "./assets/pdf/Audio_Tales_Final_Report.pdf";
+import pdf from "./../../../pdf/Petros-Chantzopoulos-CV.pdf";
 
 export default function ProjectContent(props){
     const {project} = props;
@@ -18,7 +18,7 @@ export default function ProjectContent(props){
         <ProjectContentKeywords project={project}/>
             <div className="content-links">
            
-            <a href={project.links.linkA.linkAddress} type="application/pdf" className="" target="_blank" >{project.links.linkA.linkName}</a>
+            <a href={pdf} type="application/pdf" className="" target="_blank" rel="noopener noreferrer" >{project.links.linkA.linkName}</a>
             <a href={project.links.linkB.linkAddress} className="" target="_blank" rel="noopener noreferrer">{project.links.linkB.linkName}</a>
         </div>
     </ProjectContentWrapper>
