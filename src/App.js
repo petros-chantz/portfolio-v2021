@@ -1,22 +1,25 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from "./Components/Home/Home.js";
-import NavBar from "./Components/NavBar";
-import DevPortfolio from './Components/Dev/DevPortfolio';
+import { BrowserRouter as Router } from "react-router-dom";
+import NavBar from "./Components/Navbar/NavBar.js";
+import Home from './Pages/Home/Home';
+import Skills from './Pages/Skills/Skills';
+import Experience from './Pages/Experience/Experience';
+import Projects from './Pages/Projects/Projects';
 
 export default function App() {
   return (
     <Router>
-      <NavBar/>
-      <Route exact path="/">
-        <Home/>
-      </Route>
-      <Route exact path="/dev-portfolio">
-        <DevPortfolio/>
-      </Route>
+      <NavBar />
+      <Home />
+      <Skills />
+      <Experience />
+      <Projects/>
     </Router>
   );
 }
 
 
+      {/* <Route exact path="/">
+        <Home/>
+      </Route> */}
