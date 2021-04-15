@@ -17,7 +17,7 @@ export default function Navbar() {
               <h5 className="item">EXPERIENCE</h5>
              </div>
             </HashLink>
-            <HashLink to="/#projects">
+            <HashLink smooth to="/#projects">
             <div className="nav-menu-item">
               <h5 className="item">PROJECTS</h5>
              </div>
