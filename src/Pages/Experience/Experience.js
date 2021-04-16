@@ -2,6 +2,7 @@ import React from "react";
 import { ExperienceWrapper } from "./ExperienceStyling";
 import PageTitle from "./../../Components/PageTitle/PageTitle";
 import PageDescription from "./../../Components/PageDescription/PageDescription";
+import ExperienceList from "./ExperienceList/ExperienceList";
 
 export default function Experience() {
     return (
@@ -12,7 +13,7 @@ export default function Experience() {
             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
-            <div><h1>hello</h1></div>
+            <ExperienceList/>
         </ExperienceWrapper>
     );
 }

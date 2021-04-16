@@ -2,5 +2,18 @@ import styled from "styled-components";
 
 export const ExpertisesWrapper = styled.div`
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 200px;
+
+    @media screen and (max-width: 800px){
+        grid-gap: 30px;
+        padding-left: 0px;
+    }
+
+    @media screen and (max-width: 500px){
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+    }
+    
 `;

@@ -1,13 +1,16 @@
 import React from "react"
-import ExpertisesList from "./ExpertiseList/ExpertiseList";
 import { ExpertisesWrapper } from "./ExpertisesStyling";
-import ExpertisesTitle from "./ExpertisesTitle/ExpertisesTitle";
+import skills from "./../skills.json";
+import ExpertiseBlock from "./ExpertiseBlock/ExpertiseBlock";
 
 export default function Expertises(props) {
     return (
         <ExpertisesWrapper>
-            <ExpertisesTitle expertiseTitle={props.expertiseTitle} />
-            <ExpertisesList/>
+            {Object.keys(skills).map((id) => {
+                return (<>
+                    <ExpertiseBlock skills={skills[id]}/>
+                </>);
+            })}
         </ExpertisesWrapper>
     );
 }
