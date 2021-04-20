@@ -10,14 +10,20 @@ const SubtitleWrapper = styled.div`
         margin:0;
         font-size: 18px;
         font-weight: 300;
+        text-align: right;
+
+        @media screen and (max-width: 320px){
+            font-size: 14px;
+            
+        }
     }
 `;
 
 export default function Subtitle(props) {
-    const { projects } = props;
+    const { project } = props;
     return (
         <SubtitleWrapper>
-            <p className="subtitle">{projects.projectSubtitle}</p>
+            <p className="subtitle">{project.projectType}</p>
         </SubtitleWrapper>
     );
 }

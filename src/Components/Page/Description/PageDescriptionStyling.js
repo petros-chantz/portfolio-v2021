@@ -5,5 +5,6 @@ export const PageDescriptionWrapper = styled.div`
         font-size: 18px;
         font-weight: 400;
         text-align: justify;
+        margin:0;
     }
 `;

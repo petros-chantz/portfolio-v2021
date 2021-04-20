@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { animated } from "react-spring";
 
-export const HomeContentWrapper = styled.div`
+export const HomeContentWrapper = styled(animated.div)`
     width: 100%;
     display: grid;
     grid-template-rows: 2fr 2fr 1fr;
@@ -67,7 +68,12 @@ export const LinkHomeContentWrapper = styled.div`
     padding-top: 50px;
     width: 100%;
     display: grid;
+    place-items: center start;
     grid-template-columns: 2fr 1fr 1fr 1fr;
+
+    @media screen and (max-width: 800px){
+        place-items: center;
+    }
 
     @media screen and (max-width: 500px){
         grid-template-rows: repeat(4, 1fr);
@@ -88,9 +94,6 @@ export const LinkHomeContentWrapper = styled.div`
 
         @media screen and (max-width: 340px){
            font-size: 16px;
-        }
-        }
-
-       
+        }       
     }
 `;

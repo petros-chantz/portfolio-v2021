@@ -1,7 +1,7 @@
 import React from "react";
 import { ExperienceWrapper } from "./ExperienceStyling";
-import PageTitle from "./../../Components/PageTitle/PageTitle";
-import PageDescription from "./../../Components/PageDescription/PageDescription";
+import PageTitle from "./../../Components/Page/Title/PageTitle";
+import PageDescription from "./../../Components/Page/Description/PageDescription";
 import ExperienceList from "./ExperienceList/ExperienceList";
 
 export default function Experience() {

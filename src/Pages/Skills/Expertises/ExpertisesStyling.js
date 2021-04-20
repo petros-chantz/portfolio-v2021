@@ -4,7 +4,7 @@ export const ExpertisesWrapper = styled.div`
     display: grid;
     grid-gap: 50px;
     grid-template-columns: repeat(3, 1fr);
-    padding-left: 200px;
+    place-items: center;
 
     @media screen and (max-width: 800px){
         grid-gap: 30px;
@@ -14,6 +14,7 @@ export const ExpertisesWrapper = styled.div`
     @media screen and (max-width: 500px){
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3,1fr);
+        place-items: center start;
     }
     
 `;

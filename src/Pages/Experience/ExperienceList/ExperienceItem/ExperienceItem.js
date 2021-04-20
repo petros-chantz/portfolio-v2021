@@ -2,6 +2,7 @@ import React from "react";
 import { ExperienceItemWrapper, ItemNumberWrapper, ItemTextWrapper } from "./ExperienceItemStyling";
 
 export default function ExperienceItem(props) {
+
     return (
         <ExperienceItemWrapper >
             <ItemNumberWrapper>

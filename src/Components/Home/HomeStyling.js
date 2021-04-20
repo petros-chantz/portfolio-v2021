@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const HomeWrapper = styled.div`
    // background-color: yellow;
-    margin: 20px 100px 20px 100px;
-    padding-bottom: 20px;
+    margin: 20px 100px 0px 100px;
+   padding-bottom: 20px;
     display: grid;
     place-items: center;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));

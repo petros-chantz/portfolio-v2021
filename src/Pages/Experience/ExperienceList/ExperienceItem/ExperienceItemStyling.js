@@ -1,10 +1,10 @@
 import styled from "styled-components";
+import {animated} from 'react-spring'
 
 export const ExperienceItemWrapper = styled.div`
     display: grid;
     grid-template-rows: 1fr 50px;
-
-    width: 100%;
+    
 `;
 
 export const ItemNumberWrapper = styled.div`
@@ -15,6 +15,10 @@ export const ItemNumberWrapper = styled.div`
         margin: 0;
         font-size: 98px;
         font-weight: 700;
+
+        @media screen and (max-width: 1100px){
+            font-size: 70px;
+        }
     }
 `;
 
@@ -26,5 +30,6 @@ export const ItemTextWrapper = styled.div`
         margin:0;
         font-size: 18px;
         font-weight: 700;
+        text-align: center;
     }
 `;

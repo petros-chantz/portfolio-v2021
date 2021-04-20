@@ -10,14 +10,18 @@ const TitleWrapper = styled.div`
         margin:0;
         font-size: 24px;
         font-weight: 700;
+
+        @media screen and (max-width: 320px){
+            font-size: 20px;
+        }
     }
 `;
 
 export default function Title(props) {
-    const { projects } = props;
+    const { project } = props;
     return (
         <TitleWrapper>
-            <h5 className="title">{projects.projectTitle}</h5>
+            <h5 className="title">{project.title}</h5>
         </TitleWrapper>
     );
 }

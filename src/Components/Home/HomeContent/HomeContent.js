@@ -1,10 +1,12 @@
 import React from "react";
 import Link from "../../../Components/Link/Link";
+import { useSpring} from 'react-spring'
 import { HomeContentWrapper, ContentTitleWrapper, ContentDescriptionWrapper, LinkHomeContentWrapper} from "./HomeContentStyling";
 
 export default function HomeContent() {
+     const animation = useSpring({ opacity: 1, from: { opacity: 0 } });
     return (
-        <HomeContentWrapper>
+        <HomeContentWrapper style={animation}>
             <ContentTitleWrapper>
                 <h2 className="content-title">Hey there, <a href="https://www.linkedin.com/in/petroschantz/" target="_blank" rel="noopener noreferrer" className="content-title-link">Petros</a> here!</h2>
             </ContentTitleWrapper>

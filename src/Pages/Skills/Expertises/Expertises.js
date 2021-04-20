@@ -1,6 +1,6 @@
 import React from "react"
 import { ExpertisesWrapper } from "./ExpertisesStyling";
-import skills from "./../skills.json";
+import skills from "./../../Data/skills.json";
 import ExpertiseBlock from "./ExpertiseBlock/ExpertiseBlock";
 
 export default function Expertises(props) {

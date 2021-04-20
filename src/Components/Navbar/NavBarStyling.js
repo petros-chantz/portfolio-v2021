@@ -1,8 +1,9 @@
 import styled from "styled-components";
+import { animated } from "react-spring";
 
-export const NavBarWrapper = styled.div`
+export const NavBarWrapper = styled(animated.div)`
   height: 10vh;
-  margin: 20px 100px 0px 100px;
+  margin: 30px 100px 0px 100px;
   display: grid;
   place-items: center end;
 
