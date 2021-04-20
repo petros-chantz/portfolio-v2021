@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import PageDescription from "./../../../Page/Description/PageDescription";
 
 const ParagraphWrapper = styled.div`
 
