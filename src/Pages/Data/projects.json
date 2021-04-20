@@ -5,7 +5,6 @@
       "title": "JoyStick",
       "photoCover": "./assets/Projects/joyStick.jpg",
       "projectType": "Master Elective Course",
-      "collaboration": "In collaboration with Annemiek Veldhuis",
       "description": " JoyStick is a self-contained, network connected tangible sleep quality measuring device for the home setting. ",
       "keywords": {
         "keyword1": "Design Research",
@@ -26,6 +25,75 @@
     },
     "2": {
       "id": "2",
+      "title": "eEmployees",
+      "photoCover": "./assets/Projects/audioTales.jpg",
+      "projectType": "Freelance",
+      "description": "AudioTales is a smart home system created to motivate children to perform daily tasks through immersive and interactive storytelling. ",
+      "keywords": {
+        "keyword1": "Mix Methods Research",
+        "keyword2": "User Testing",
+        "keyword3": "Prototyping",
+        "keyword4": "Fabricating"
+      },
+      "links": {
+        "linkA": {
+          "linkAddress": "https://www.dropbox.com/s/86v1zxor0fvn8tx/Audio%20Tales_Final%20Report.pdf?dl=0",
+          "linkName": "report"
+        },
+        "linkB": {
+          "linkAddress": "https://www.dropbox.com/sh/m92vif13kyhn13m/AABrZ466ZWVFuQqvCs20RluGa?dl=0",
+          "linkName": "more photos"
+        }
+      }
+    },
+    "3": {
+      "id": "3",
+      "title": "AudioTales",
+      "photoCover": "./assets/Projects/audioTales.jpg",
+      "projectType": "Master Group Project",
+      "description": "AudioTales is a smart home system created to motivate children to perform daily tasks through immersive and interactive storytelling. ",
+      "keywords": {
+        "keyword1": "Mix Methods Research",
+        "keyword2": "User Testing",
+        "keyword3": "Prototyping",
+        "keyword4": "Fabricating"
+      },
+      "links": {
+        "linkA": {
+          "linkAddress": "https://www.dropbox.com/s/86v1zxor0fvn8tx/Audio%20Tales_Final%20Report.pdf?dl=0",
+          "linkName": "report"
+        },
+        "linkB": {
+          "linkAddress": "https://www.dropbox.com/sh/m92vif13kyhn13m/AABrZ466ZWVFuQqvCs20RluGa?dl=0",
+          "linkName": "more photos"
+        }
+      }
+    },
+    "4": {
+      "id": "4",
+      "title": "In-store Customization",
+      "photoCover": "./assets/Projects/bachelor.jpg",
+      "projectType": "Final Bachelor Project",
+      "description": "Nowadays traditional in-store retail experiences have suffered a great loss from the popularity and convenience of shopping digitally. ",
+      "keywords": {
+        "keyword1": "Expert sessions",
+        "keyword2": "Usability Testing",
+        "keyword3": "Mix Methods Processes",
+        "keyword4": "Prototyping"
+      },
+      "links": {
+        "linkA": {
+          "linkAddress": "https://www.dropbox.com/s/i324chhszc6l30i/Petros%20Chantzopoulos%20Final%20Bachelor%20Report.pdf?dl=0",
+          "linkName": "report"
+        },
+        "linkB": {
+          "linkAddress": "https://www.dropbox.com/sh/3fg87bzf6xysmx9/AAAWll88T3J7kqVdUEKOPspUa?dl=0",
+          "linkName": "more photos"
+        }
+      }
+    },
+    "5": {
+      "id": "5",
       "title": "AudioTales",
       "photoCover": "./assets/Projects/audioTales.jpg",
       "projectType": "Master Group Project",
@@ -48,25 +116,26 @@
         }
       }
     },
-    "3": {
-      "id": "3",
-      "title": "In-store Customization",
-      "photoCover": "./assets/Projects/bachelor.jpg",
-      "projectType": "Final Bachelor Project",
-      "description": "Nowadays traditional in-store retail experiences have suffered a great loss from the popularity and convenience of shopping digitally. ",
+    "6": {
+      "id": "6",
+      "title": "AudioTales",
+      "photoCover": "./assets/Projects/audioTales.jpg",
+      "projectType": "Master Group Project",
+      "collaboration": "In collaboration with Galina Petrova, Liyu Ruan, Jules Rutten",
+      "description": "AudioTales is a smart home system created to motivate children to perform daily tasks through immersive and interactive storytelling. ",
       "keywords": {
-        "keyword1": "Expert sessions",
-        "keyword2": "Usability Testing",
-        "keyword3": "Mix Methods Processes",
-        "keyword4": "Prototyping"
+        "keyword1": "Mix Methods Research",
+        "keyword2": "User Testing",
+        "keyword3": "Prototyping",
+        "keyword4": "Fabricating"
       },
       "links": {
         "linkA": {
-          "linkAddress": "https://www.dropbox.com/s/i324chhszc6l30i/Petros%20Chantzopoulos%20Final%20Bachelor%20Report.pdf?dl=0",
+          "linkAddress": "https://www.dropbox.com/s/86v1zxor0fvn8tx/Audio%20Tales_Final%20Report.pdf?dl=0",
           "linkName": "report"
         },
         "linkB": {
-          "linkAddress": "https://www.dropbox.com/sh/3fg87bzf6xysmx9/AAAWll88T3J7kqVdUEKOPspUa?dl=0",
+          "linkAddress": "https://www.dropbox.com/sh/m92vif13kyhn13m/AABrZ466ZWVFuQqvCs20RluGa?dl=0",
           "linkName": "more photos"
         }
       }
