@@ -8,13 +8,16 @@ const KeywordWrapper = styled.div`
 
     @media screen and (max-width: 500px){
       grid-gap: 5px;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, 1fr);
+      place-items: center end;
     }
 `;
 
 const KeywordItem = styled.p`
     margin:0;
     font-size: 11px;
-    text-align: right;
+    text-align: center;
     font-weight: 400;
 
 

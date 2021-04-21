@@ -17,7 +17,7 @@ const ContentDetailsWrapper = styled.div`
 
         
     @media screen and (max-width: 500px){
-      grid-template-rows: 70px 120px 50px 50px;
+      grid-template-rows: 70px 120px 100px 50px;
     }
 `;
 
@@ -25,6 +25,10 @@ const LinksWrapper = styled.div`
     display: grid;
     place-items: center start;
     grid-template-columns: repeat(3, 1fr);
+
+        @media screen and (max-width: 500px){
+            grid-gap: 15px;
+    }
 `;
 
 export default function ContentDetails(props) {

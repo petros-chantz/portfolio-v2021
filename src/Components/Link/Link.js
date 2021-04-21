@@ -10,6 +10,9 @@ const LinkWrapper = styled.div`
         font-size: ${props => props.linkFontSize}px;
         font-weight: 600;
         letter-spacing: 0.5px;
+        text-align: center;
+
+ 
     }
 `;
 
