@@ -10,9 +10,8 @@ export default function Projects() {
     return (
         <ProjectsWrapper id="projects">
             <PageTitle PageTitle="Projects" />
-            <PageDescription pageDescription="Pages bodyLorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
+            <PageDescription pageDescription="Hereby is a selected list of various research, 
+            design and frontend development projects I have been working on in the past four years. "/>
             <ProjectWrapper>
                             {Object.keys(projects).map(id => {
                 return (

@@ -13,9 +13,10 @@ const KeywordWrapper = styled.div`
 
 const KeywordItem = styled.p`
     margin:0;
-    font-size: 12px;
-    text-align: center;
+    font-size: 11px;
+    text-align: right;
     font-weight: 400;
+
 
 `;
 

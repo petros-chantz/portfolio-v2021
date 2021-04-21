@@ -9,7 +9,7 @@
       "keywords": {
         "keyword1": "Design Research",
         "keyword2": "Data Analysis",
-        "keyword3": "In-situ research",
+        "keyword3": "Software Development",
         "keyword4": "Prototyping"
       },
       "links": {
@@ -17,37 +17,72 @@
           "linkAddress": "https://www.dropbox.com/s/modl3ftnj9m1mbq/JoyStick%20CHI%20paper.pdf?dl=0",
           "linkName": "submitted CHI paper"
         },
-        "linkB": {
+        "linkC": {
             "linkAddress": "https://www.dropbox.com/sh/wekaqf05q9d3j82/AAAs0nITUqTGuhWSayxcFZQna?dl=0",
             "linkName": "more photos"
+        },
+        "linkB": {
+          "linkAddress": "",
+          "linkName": ""
         }
       }
     },
     "2": {
       "id": "2",
-      "title": "eEmployees",
+      "title": "Book Review App",
       "photoCover": "./assets/Projects/audioTales.jpg",
-      "projectType": "Freelance",
+      "projectType": "UI Design - Frontend",
       "description": "AudioTales is a smart home system created to motivate children to perform daily tasks through immersive and interactive storytelling. ",
       "keywords": {
-        "keyword1": "Mix Methods Research",
-        "keyword2": "User Testing",
-        "keyword3": "Prototyping",
-        "keyword4": "Fabricating"
+        "keyword1": "Figma",
+        "keyword2": "React.js",
+        "keyword3": "Styled Components",
+        "keyword4": "REST API"
       },
       "links": {
         "linkA": {
           "linkAddress": "https://www.dropbox.com/s/86v1zxor0fvn8tx/Audio%20Tales_Final%20Report.pdf?dl=0",
-          "linkName": "report"
+          "linkName": "live demo"
         },
         "linkB": {
           "linkAddress": "https://www.dropbox.com/sh/m92vif13kyhn13m/AABrZ466ZWVFuQqvCs20RluGa?dl=0",
-          "linkName": "more photos"
+          "linkName": "github code"
+        },
+        "linkC": {
+          "linkAddress": "https://www.dropbox.com/sh/m92vif13kyhn13m/AABrZ466ZWVFuQqvCs20RluGa?dl=0",
+          "linkName": "reflection on project"
         }
       }
     },
     "3": {
       "id": "3",
+      "title": "eEmployees App",
+      "photoCover": "./assets/Projects/audioTales.jpg",
+      "projectType": "UI Design - Frontend",
+      "description": "AudioTales is a smart home system created to motivate children to perform daily tasks through immersive and interactive storytelling. ",
+      "keywords": {
+        "keyword1": "Figma",
+        "keyword2": "React.js",
+        "keyword3": "Styled Components",
+        "keyword4": "REST API"
+      },
+      "links": {
+        "linkA": {
+          "linkAddress": "https://www.dropbox.com/s/86v1zxor0fvn8tx/Audio%20Tales_Final%20Report.pdf?dl=0",
+          "linkName": "live demo"
+        },
+        "linkB": {
+          "linkAddress": "https://www.dropbox.com/sh/m92vif13kyhn13m/AABrZ466ZWVFuQqvCs20RluGa?dl=0",
+          "linkName": "github code"
+        },
+        "linkC": {
+          "linkAddress": "https://www.dropbox.com/sh/m92vif13kyhn13m/AABrZ466ZWVFuQqvCs20RluGa?dl=0",
+          "linkName": "reflection on project"
+        }
+      }
+    },
+    "4": {
+      "id": "4",
       "title": "AudioTales",
       "photoCover": "./assets/Projects/audioTales.jpg",
       "projectType": "Master Group Project",
@@ -55,8 +90,8 @@
       "keywords": {
         "keyword1": "Mix Methods Research",
         "keyword2": "User Testing",
-        "keyword3": "Prototyping",
-        "keyword4": "Fabricating"
+        "keyword3": "Software Development",
+        "keyword4": "Prototyping"
       },
       "links": {
         "linkA": {
@@ -66,19 +101,23 @@
         "linkB": {
           "linkAddress": "https://www.dropbox.com/sh/m92vif13kyhn13m/AABrZ466ZWVFuQqvCs20RluGa?dl=0",
           "linkName": "more photos"
+        },
+        "linkC": {
+          "linkAddress": "",
+          "linkName": ""
         }
       }
     },
-    "4": {
-      "id": "4",
+    "5": {
+      "id": "5",
       "title": "In-store Customization",
       "photoCover": "./assets/Projects/bachelor.jpg",
       "projectType": "Final Bachelor Project",
       "description": "Nowadays traditional in-store retail experiences have suffered a great loss from the popularity and convenience of shopping digitally. ",
       "keywords": {
-        "keyword1": "Expert sessions",
-        "keyword2": "Usability Testing",
-        "keyword3": "Mix Methods Processes",
+        "keyword1": "Design Research",
+        "keyword2": "Client collaboration",
+        "keyword3": "Customer Journey Mapping",
         "keyword4": "Prototyping"
       },
       "links": {
@@ -89,54 +128,10 @@
         "linkB": {
           "linkAddress": "https://www.dropbox.com/sh/3fg87bzf6xysmx9/AAAWll88T3J7kqVdUEKOPspUa?dl=0",
           "linkName": "more photos"
-        }
-      }
-    },
-    "5": {
-      "id": "5",
-      "title": "AudioTales",
-      "photoCover": "./assets/Projects/audioTales.jpg",
-      "projectType": "Master Group Project",
-      "collaboration": "In collaboration with Galina Petrova, Liyu Ruan, Jules Rutten",
-      "description": "AudioTales is a smart home system created to motivate children to perform daily tasks through immersive and interactive storytelling. ",
-      "keywords": {
-        "keyword1": "Mix Methods Research",
-        "keyword2": "User Testing",
-        "keyword3": "Prototyping",
-        "keyword4": "Fabricating"
-      },
-      "links": {
-        "linkA": {
-          "linkAddress": "https://www.dropbox.com/s/86v1zxor0fvn8tx/Audio%20Tales_Final%20Report.pdf?dl=0",
-          "linkName": "report"
         },
-        "linkB": {
-          "linkAddress": "https://www.dropbox.com/sh/m92vif13kyhn13m/AABrZ466ZWVFuQqvCs20RluGa?dl=0",
-          "linkName": "more photos"
-        }
-      }
-    },
-    "6": {
-      "id": "6",
-      "title": "AudioTales",
-      "photoCover": "./assets/Projects/audioTales.jpg",
-      "projectType": "Master Group Project",
-      "collaboration": "In collaboration with Galina Petrova, Liyu Ruan, Jules Rutten",
-      "description": "AudioTales is a smart home system created to motivate children to perform daily tasks through immersive and interactive storytelling. ",
-      "keywords": {
-        "keyword1": "Mix Methods Research",
-        "keyword2": "User Testing",
-        "keyword3": "Prototyping",
-        "keyword4": "Fabricating"
-      },
-      "links": {
-        "linkA": {
-          "linkAddress": "https://www.dropbox.com/s/86v1zxor0fvn8tx/Audio%20Tales_Final%20Report.pdf?dl=0",
-          "linkName": "report"
-        },
-        "linkB": {
-          "linkAddress": "https://www.dropbox.com/sh/m92vif13kyhn13m/AABrZ466ZWVFuQqvCs20RluGa?dl=0",
-          "linkName": "more photos"
+        "linkC": {
+          "linkAddress": "",
+          "linkName": ""
         }
       }
     }

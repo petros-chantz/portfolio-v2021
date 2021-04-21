@@ -7,7 +7,7 @@ const LinkWrapper = styled.div`
 
     .link{
         color: #0C60BB;
-        font-size: 18px;
+        font-size: ${props => props.linkFontSize}px;
         font-weight: 600;
         letter-spacing: 0.5px;
     }
@@ -15,7 +15,7 @@ const LinkWrapper = styled.div`
 
 export default function Link(props) {
     return (
-        <LinkWrapper>
+        <LinkWrapper linkFontSize={props.linkFontSize} linkFontWeight={props.linkFontWeight}>
             <a href={props.linkUrl} target="_blank" rel="noopener noreferrer" className="link">{props.linkDescription}</a>
         </LinkWrapper>
     );

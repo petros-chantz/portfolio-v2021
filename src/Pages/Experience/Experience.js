@@ -8,11 +8,9 @@ export default function Experience() {
     return (
         <ExperienceWrapper id="experience">
             <PageTitle PageTitle="Experience" />
-            <PageDescription pageDescription="Pages bodyLorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
+            <PageDescription pageDescription="As my skills are multi-phased, so is my professional experience. In the past four
+            years I have had the chance to work in multiple academic research projects as a research assistant, in design research
+            labs as a lab assistant and in commercial projects for companies and freelancers such as Signify (Ex. Philips Lighting)."/>
             <ExperienceList/>
         </ExperienceWrapper>
     );

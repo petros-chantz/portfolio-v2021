@@ -33,7 +33,7 @@ export const ProjectsWrapper = styled.div`
 
 export const ProjectWrapper = styled.div`
     display: grid;  
-    grid-gap: 40px;
+    grid-gap: 60px;
 `;
 
 export const TopWrapper = styled.div`

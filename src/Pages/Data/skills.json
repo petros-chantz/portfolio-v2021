@@ -27,8 +27,8 @@
         "expertiseName": "FRONTEND DEVELOPMENT",
         "skills": {
             "skill1": "JavaScript ES6",
-            "skill2": "React.js - TypeScript",
-            "skill3": "REST API - GraphQL",
+            "skill2": "React.js - TypeScript - D3.js",
+            "skill3": "REST API - GraphQL ",
             "skill4": "AWS (S3, Route 53, Amplify) - Netlify",
             "skill5": "Git / GitHub",
             "skill6": "Agile / Scrum - Debugging"
