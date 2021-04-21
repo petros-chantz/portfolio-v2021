@@ -2,24 +2,12 @@
     "1": {
         "expertiseName": "UX RESEARCH",
         "skills": {
-            "skill1": "Design Thinking",
+            "skill1": "Design Thinking - Prototyping",
             "skill2": "Usability Evaluation/Testing",
-            "skill3": "Customer Journey Mapping",
-            "skill4": "Designing Business Models",
-            "skill5": "A/B Testing",
-            "skill6": "Design Research",
-            "skill7": "Mixed Research Methods",
-            "skill8": "Thematic Data Analysis",
-            "skill9": "Presenting Key Findings",
-            "skill10": "Prototyping",
-            "skill11": "Fabricating",
-            "skill12": "SurveyMonkey",
-            "skill13": "Typeform",
-            "skill14": "Miro",
-            "skill15": "MindMode",
-            "skill16": "Asana",
-            "skill17": "Office 365"
-
+            "skill3": "Mixed Research Methods",
+            "skill4": "Thematic Data Analysis",
+            "skill5": "Customer Journey Mapping",
+            "skill6": "Defining Client Vision/Goals"
         }
         
     },
@@ -27,22 +15,11 @@
         "expertiseName": "UI DESIGN",
         "skills": {
             "skill1": "Adobe Suite",
-            "skill2": "Wireframes",
-            "skill3": "Mockups",
-            "skill4": "Figma",
-            "skill5": "Framer",
-            "skill6": "InVision",
-            "skill7": "CSS/SASS - HTML5",
-            "skill8": "Styled Components",
-            "skill9": "Tailwind CSS",
-            "skill10": "Chakra UI",
-            "skill11": "Material UI",
-            "skill12": "React Bootstrap",
-            "skill13": "CSS Animations",
-            "skill14": "React Spring",
-            "skill15": "Storybook",
-            "skill16": "Zeplin",
-            "skill17": "Chromatic"
+            "skill2": "Figma - Framer - InVision",
+            "skill3": "StoryBook - Chromatic - Zeplin",
+            "skill4": "Styled Components - Material UI",
+            "skill5": "Tailwind CSS - Chakra UI",
+            "skill6": "React Spring"  
 
         }
     },
@@ -50,22 +27,11 @@
         "expertiseName": "FRONTEND DEVELOPMENT",
         "skills": {
             "skill1": "JavaScript ES6",
-            "skill2": "React.js",
-            "skill3": "TypeScript",
-            "skill4": "D3.js",
-            "skill5": "REST API",
-            "skill6": "GraphQL",
-            "skill7": "AWS (S3, Route 53, Amplify)",
-            "skill8": "Netlify",
-            "skill9": "Git / GitHub",
-            "skill10": "Agile / Scrum ",
-            "skill11": "Debugging",
-            "skill12": "CI / CD",
-            "skill13": "",
-            "skill14": "",
-            "skill15": "",
-            "skill16": "",
-            "skill17": ""
+            "skill2": "React.js - TypeScript",
+            "skill3": "REST API - GraphQL",
+            "skill4": "AWS (S3, Route 53, Amplify) - Netlify",
+            "skill5": "Git / GitHub",
+            "skill6": "Agile / Scrum - Debugging"
 
         }
     }

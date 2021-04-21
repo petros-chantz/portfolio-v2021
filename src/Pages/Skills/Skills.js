@@ -29,10 +29,11 @@ export default function Skills() {
     return (
         <SkillsWrapper id="skills" style={animation} >
             <PageTitle PageTitle="Skills" />
-            <PageDescription pageDescription="Pages bodyLorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "/>
+        <PageDescription pageDescription="I’m a person who wears a lot of hats. As my practise is multi phased and
+          interdisciplinary my skill sets and expertises coincidentally reflect that breadth and variety. Above all I am a
+          strong believer in the practise of self-directed and continuous learning and the ability to self reflect before action
+          taking. These beliefs have been formed in my practise from my own appreciation of craftsmanship alongside
+          the craftsmanship of people that I have had the chance to work with. "/>
             <Expertises />
             <DevStack/>
         </SkillsWrapper>
