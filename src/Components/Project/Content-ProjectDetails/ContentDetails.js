@@ -41,7 +41,7 @@ export default function ContentDetails(props) {
             <LinksWrapper>
                 <Link 
                     linkDescription={project.links.linkA.linkName} 
-                    linkUrl={project.links.linkA.linkAddress}
+                    linkUrl={project.pdf}
                     linkFontSize="16"
 
                 />
