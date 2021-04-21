@@ -30,7 +30,7 @@
     "2": {
       "id": "2",
       "title": "Book Review App",
-      "photoCover": "./assets/Projects/audioTales.jpg",
+      "photoCover": "./assets/Projects/gradient-yellow.png",
       "projectType": "UI Design - Frontend",
       "description": "AudioTales is a smart home system created to motivate children to perform daily tasks through immersive and interactive storytelling. ",
       "keywords": {
@@ -57,7 +57,7 @@
     "3": {
       "id": "3",
       "title": "eEmployees App",
-      "photoCover": "./assets/Projects/audioTales.jpg",
+      "photoCover": "./assets/Projects/gradient-blue.png",
       "projectType": "UI Design - Frontend",
       "description": "AudioTales is a smart home system created to motivate children to perform daily tasks through immersive and interactive storytelling. ",
       "keywords": {
