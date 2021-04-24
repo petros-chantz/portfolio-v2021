@@ -1,6 +1,8 @@
 import React from "react";
 import { Text } from "../Components/TextElements";
 import { Container } from "./../Components/Containers";
+import Weather from "./../api/Weather";
+import HomeText from "../Components/HomeTextContent.js";
 
 export default function Home() {
     return (
@@ -10,18 +12,11 @@ export default function Home() {
                     <Text>Photo</Text>
                 </Container>
                 <Container place="center start" >
-                    <Container rows="100px 100px 1fr 100px">
-                        <Text>Text</Text>
-                        <Text>Text</Text>
-                        <Text>Text</Text>
-                        <Text>Text</Text>
-                    </Container>
+                    <HomeText/>
                 </Container>
             </Container>
             <Container>
-                <Container place="center start">
-                    <Text>weather</Text>
-                </Container>
+                <Weather/>
             </Container>
         </Container>
     );

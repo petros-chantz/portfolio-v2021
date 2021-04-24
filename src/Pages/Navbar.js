@@ -15,17 +15,17 @@ export default function Navbar(props) {
             <Container place="center end" gap="10px;">
                 <Container place="center">
                     <HashLink smooth to="/#skills" >
-                        <Text>Skills</Text>
+                        <Text fontSize="20px" fontWeight="300" transform="uppercase">Skills</Text>
                     </HashLink>
                 </Container>
                 <Container place="center">
                     <HashLink smooth to="/#experience" >
-                        <Text>Experience</Text>
+                        <Text fontSize="20px" fontWeight="300" transform="uppercase">Experience</Text>
                     </HashLink>
                 </Container>
                 <Container place="center">
                     <HashLink smooth to="/#projects" >
-                        <Text>Projects</Text>
+                        <Text fontSize="20px" fontWeight="300" transform="uppercase">Projects</Text>
                     </HashLink>
                 </Container>
             </Container>
