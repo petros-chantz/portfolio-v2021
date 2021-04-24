@@ -11,7 +11,11 @@ export const Container = styled.div`
     margin: ${props => props.margin};
 `;
 
-export const ContainerLink = styled(Container)`
-
+export const ContainerSkillsStack = styled(Container)`
+    background-color: ${props => props.theme.color.backgroundSkillsStack};
+    border-radius: ${props => props.theme.borderRadius};
 `;
 
+export const ContainerSkillsStackItem = styled(Container)`
+ background-color: ${props => props.theme.color.backgroundSkillsStack};
+`;
