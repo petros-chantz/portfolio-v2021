@@ -30,6 +30,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build
+    environment: prod
     steps:
       - uses: actions/checkout@master
       - uses: jakejarvis/s3-sync-action@master
