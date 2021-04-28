@@ -1,24 +1,23 @@
 import React from "react";
-import { Container, ContainerSkillsStack } from "../Components/Containers";
+import {
+  Container,
+  ContainerPage,
+  ContainerSkillsStack,
+} from "../Components/Containers";
 import PagesInfoSections from "../Components/PagesInfoSections";
 import SkillsDevStackItem from "../Components/SkillsDevStackItem";
 import SkillsFieldColumn from "../Components/SkillsFieldColumn";
-import { Title, Text } from "../Components/TextElements";
-import skills from "./../Data/skills.json";
-import Figma from "./../Images/Figma-Icon.svg";
-import Storybook from "./../Images/storybook.png";
-import Reactlogo from "./../Images/react-logo.png";
-import AWS from "./../Images/aws-logo.png";
-import StyledComponents from "./../Images/styled-components.svg";
+import { Text } from "../Components/TextElements";
+import skills from "../data/skills.json";
+import Figma from "./../images/Figma-Icon.svg";
+import Storybook from "./../images/storybook.png";
+import Reactlogo from "./../images/react-logo.png";
+import AWS from "./../images/aws-logo.png";
+import StyledComponents from "./../images/styled-components.svg";
 
-export default function Skills(props) {
+export default function Skills() {
   return (
-    <Container
-      padding={props.padding}
-      rows="150px 1fr 100px"
-      gap="30px"
-      id="skills"
-    >
+    <ContainerPage rows="150px 1fr 100px" gap="60px" id="skills">
       <PagesInfoSections
         pageTitle="Skills"
         pageText="I’m a person who wears a lot of hats. As my practise is multi phased and
@@ -64,6 +63,6 @@ export default function Skills(props) {
           <SkillsDevStackItem image={AWS} imageHeight="40"></SkillsDevStackItem>
         </ContainerSkillsStack>
       </Container>
-    </Container>
+    </ContainerPage>
   );
 }
