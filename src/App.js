@@ -13,11 +13,11 @@ export default function App(props) {
   return (
     <Router>
       <Container>
-        {/* <Navbar
+        <Navbar
           handleThemeChange={props.handleThemeChange}
           colorTheme={props.colorTheme}
         />
-        <Home /> */}
+        <Home />
         <Weather />
         <Skills />
         <Experience />

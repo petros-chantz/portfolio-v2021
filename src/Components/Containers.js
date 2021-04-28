@@ -14,7 +14,7 @@ export const Container = styled.div`
 
 export const ContainerPage = styled(Container)`
   @media screen and (max-width: ${breakpoints.screen4k}) {
-    padding: 100px 350px 0px 350px;
+    padding: 100px 550px 0px 550px;
   }
 
   @media screen and (max-width: ${breakpoints.laptopLScreen}) {
@@ -40,7 +40,7 @@ export const ContainerPage = styled(Container)`
 
 export const ContainerNavbar = styled(Container)`
   @media screen and (max-width: ${breakpoints.screen4k}) {
-    padding: 20px 350px 0px 350px;
+    padding: 20px 550px 0px 550px;
   }
 
   @media screen and (max-width: ${breakpoints.laptopLScreen}) {
@@ -75,15 +75,15 @@ export const ContainerSkillsStackItem = styled(Container)`
 
 export const ContainerHome = styled(Container)`
   @media screen and (max-width: ${breakpoints.screen4k}) {
-    padding: 100px 500px 20px 500px;
+    padding: 100px 550px 0px 550px;
   }
 
   @media screen and (max-width: ${breakpoints.laptopLScreen}) {
-    padding: 100px 200px 20px 200px;
+    padding: 100px 200px 0px 200px;
   }
 
   @media screen and (max-width: ${breakpoints.laptopMScreen}) {
-    padding: 100px 180px 20px 180px;
+    padding: 100px 180px 0px 180px;
   }
 
   @media screen and (max-width: ${breakpoints.laptopScreen}) {
