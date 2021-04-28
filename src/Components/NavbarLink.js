@@ -6,13 +6,13 @@ import { Text } from "./../Components/TextElements";
 export default function NavbarLink(props) {
   return (
     <Container place="center">
-      <HashLink smooth to="/#{props.HashLink}">
+      <HashLink smooth to={props.HashLink}>
         <Text
           fontSize={props.navBarfontSize}
           fontWeight="300"
           transform="uppercase"
         >
-          {props.HashLink}
+          {props.HashLinkName}
         </Text>
       </HashLink>
     </Container>

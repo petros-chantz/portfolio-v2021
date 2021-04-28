@@ -13,7 +13,7 @@ export default function App(props) {
   return (
     <Router>
       <Container>
-        {/* <Navbar
+        <Navbar
           handleThemeChange={props.handleThemeChange}
           colorTheme={props.colorTheme}
         />
@@ -22,7 +22,7 @@ export default function App(props) {
         <Experience />
         <Projects />
         <Footer />
-      </Container>git
+      </Container>
     </Router>
   );
 }

@@ -17,9 +17,9 @@ export default function Navbar(props) {
         </Button>
       </Container>
       <Container place="center end" gap="10px;">
-        <NavbarLink HashLink="skills" />
-        <NavbarLink HashLink="experience" />
-        <NavbarLink HashLink="projects" />
+        <NavbarLink HashLink="/#skills" HashLinkName="Skills" />
+        <NavbarLink HashLink="/#experience" HashLinkName="Experience" />
+        <NavbarLink HashLink="/#projects" HashLinkName="Projects" />
       </Container>
     </ContainerNavbar>
   );

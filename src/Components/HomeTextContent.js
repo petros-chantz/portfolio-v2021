@@ -25,7 +25,7 @@ export default function HomeTextContent() {
           I’m ready to take the next step and join your team!
         </Text>
       </Container>
-      <Container columns="repeat(4, 1fr)">
+      <Container columns="repeat(4, 1fr)" place="center">
         <Text>email</Text>
         <Link>cv</Link>
         <Link>linkedIn</Link>
