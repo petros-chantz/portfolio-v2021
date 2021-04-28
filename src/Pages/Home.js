@@ -1,23 +1,17 @@
 import React from "react";
-import { Text } from "../Components/TextElements";
-import { Container } from "./../Components/Containers";
-import Weather from "./../api/Weather";
-import HomeText from "../Components/HomeTextContent.js";
+import { Container, ContainerHome } from "./../Components/Containers";
+import HomeTextContent from "../Components/HomeTextContent.js";
+import HomePhoto from "../Components/HomePhoto";
 
 export default function Home(props) {
   return (
-    <Container rows="1fr 100px" padding={props.padding}>
-      <Container columns="repeat(2, 1fr)" gap="20px">
-        <Container place="center">
-          <Text>Photo</Text>
-        </Container>
-        <Container place="center start">
-          <HomeText />
-        </Container>
+    <ContainerHome columns="repeat(2, 1fr)" gap="30px">
+      <Container place="center">
+        <HomePhoto />
       </Container>
-      <Container>
-        <Weather />
+      <Container place="center start">
+        <HomeTextContent />
       </Container>
-    </Container>
+    </ContainerHome>
   );
 }

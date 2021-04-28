@@ -1,17 +1,11 @@
 import React from "react";
-import { Container } from "../Components/Containers";
+import { Container, ContainerPage } from "../Components/Containers";
 import ExperienceYearsItem from "../Components/ExperienceYearsItem";
 import PagesInfoSections from "../Components/PagesInfoSections";
-import { Title, Text } from "../Components/TextElements";
 
 export default function Experience(props) {
   return (
-    <Container
-      padding={props.padding}
-      rows="150px 1fr"
-      gap="30px"
-      id="experience"
-    >
+    <ContainerPage rows="150px 1fr" gap="30px" id="experience">
       <PagesInfoSections
         pageTitle="Experience"
         pageText="As my skills are multi-phased, so is my professional experience.
@@ -28,6 +22,6 @@ export default function Experience(props) {
           field="years of professional experience"
         />
       </Container>
-    </Container>
+    </ContainerPage>
   );
 }
