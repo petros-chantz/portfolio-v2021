@@ -17,14 +17,14 @@ const InfoTextRegular = styled(TitleRegular)`
 
 export default function InfoText() {
   return (
-    <Container gap="40px">
-      <InfoTextRegular textAlign="justify" fontWeight="600">
+    <Container gap="70px" padding="0px 30px 0px 0px ">
+      <InfoTextRegular textAlign="justify" spacing="2px" fontWeight="600">
         I’m a UX Researcher and an all-around Creative Technologist. I hold a
         Master's Degree in Constructive Design Research from Technical
         University of Eindhoven. My emphasis is on the use of data as a design
         material.
       </InfoTextRegular>
-      <InfoTextRegular textAlign="justify" fontWeight="600">
+      <InfoTextRegular textAlign="center" fontWeight="600">
         I’m ready to take the next step and join your team!
       </InfoTextRegular>
     </Container>

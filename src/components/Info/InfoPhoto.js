@@ -15,6 +15,7 @@ const ContainerPhoto = styled(animated.div)`
   height: 100%;
   display: grid;
   place-items: center;
+
   .card {
     width: 50ch;
     height: 50ch;

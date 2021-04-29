@@ -7,6 +7,7 @@ export const TitleBig = styled.h2`
   text-align: ${(props) => props.textAlign};
   text-transform: ${(props) => props.transform};
   line-height: ${(props) => props.lineHeight};
+  letter-spacing: ${(props) => props.spacing};
 `;
 
 export const TitleRegular = styled.h4`
@@ -16,6 +17,7 @@ export const TitleRegular = styled.h4`
   text-align: ${(props) => props.textAlign};
   text-transform: ${(props) => props.transform};
   line-height: ${(props) => props.lineHeight};
+  letter-spacing: ${(props) => props.spacing};
 `;
 
 export const Text = styled.p`
@@ -25,6 +27,7 @@ export const Text = styled.p`
   text-align: ${(props) => props.textAlign};
   text-transform: ${(props) => props.transform};
   line-height: ${(props) => props.lineHeight};
+  letter-spacing: ${(props) => props.spacing};
 `;
 
 export const QuotationMarks = styled(Text)`

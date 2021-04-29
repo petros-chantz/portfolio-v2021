@@ -4,7 +4,7 @@ import { QuotationMarks, TitleRegular } from "./Text";
 
 export default function Quotes(props) {
   return (
-    <Container rows="200px 1fr 200px">
+    <Container rows="120px 1fr 120px">
       <Container place="center start">
         <QuotationMarks>‘‘</QuotationMarks>
       </Container>
