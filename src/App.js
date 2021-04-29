@@ -6,6 +6,8 @@ import Info from "./pages/Info";
 import Map from "./pages/Map";
 import Skills from "./pages/Skills";
 import Experience from "./pages/Experience";
+import Projects from "./pages/Projects";
+import Footer from "./pages/Footer";
 
 export default function App(props) {
   return (
@@ -19,6 +21,8 @@ export default function App(props) {
         <Map />
         <Skills />
         <Experience />
+        <Projects />
+        <Footer />
       </Container>
     </Router>
   );
