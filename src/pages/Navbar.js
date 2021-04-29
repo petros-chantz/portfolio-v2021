@@ -7,7 +7,7 @@ import { Button } from "../components/Button";
 
 export default function Navbar(props) {
   return (
-    <NavbarPadding columns="repeat(2, 1fr)">
+    <NavbarPadding columns="repeat(2, 1fr)" id="top">
       <Container place="center start">
         <Button onClick={props.handleThemeChange}>
           {props.colorTheme ? (

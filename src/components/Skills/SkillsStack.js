@@ -13,9 +13,9 @@ import StyledComponents from "./../../images/styled-components.svg";
 
 export default function SkillsStack() {
   return (
-    <Container gap="50px">
+    <Container gap="10px">
       <Container place="center" padding="50px 0px 0px 0px">
-        <Text>my current dev stack</Text>
+        <Text fontWeight="500">My current dev stack:</Text>
       </Container>
       <ContainerSkillsStack columns="repeat(5,1fr)" padding="20px">
         <ContainerSkillsStackItem padding="10px" place="center">
