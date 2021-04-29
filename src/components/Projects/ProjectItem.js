@@ -6,7 +6,7 @@ import ProjectItemPhoto from "./ProjectItemPhoto";
 export default function ProjectItem(props) {
   const { project } = props;
   return (
-    <Container rows="repeat(2, 1fr)" place="center" gap="30px">
+    <Container rows="2fr 1fr" place="center" gap="30px" width="100%">
       <ProjectItemPhoto project={project} />
       <ProjectItemContent project={project} />
     </Container>

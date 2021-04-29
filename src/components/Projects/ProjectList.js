@@ -8,11 +8,13 @@ import projects from "./../../data/projects.json";
 const ContainerProjectList = styled(Container)`
   @media screen and (max-width: ${breakpoints.screen4k}) {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    // grid-template-rows: repeat(3, 1fr);
   }
   @media screen and (max-width: ${breakpoints.laptopScreen}) {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
+    // grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
   @media screen and (max-width: ${breakpoints.mobileLScreen}) {
   }

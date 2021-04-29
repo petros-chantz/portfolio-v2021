@@ -11,7 +11,9 @@ export default function ExperienceYearsListItem(props) {
         </Text>
       </Container>
       <Container>
-        <Text textAlign="center">{props.topic}</Text>
+        <Text textAlign="center" fontWeight="600">
+          {props.topic}
+        </Text>
       </Container>
     </Container>
   );

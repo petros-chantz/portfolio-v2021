@@ -9,10 +9,6 @@ const ContainerSkillsTopic = styled(Container)`
   background-color: ${(props) => props.theme.color.background};
   border: 4px solid ${(props) => props.theme.color.text};
   border-radius: 4px;
-
-  :hover {
-    border: 4px solid ${(props) => props.theme.color.link};
-  }
 `;
 
 function SkillsTopic(props) {
@@ -20,7 +16,7 @@ function SkillsTopic(props) {
   return (
     <ContainerSkillsTopic rows="70px 200px">
       <Container place="center">
-        <Text transform="uppercase" fontWeight="500">
+        <Text transform="uppercase" fontWeight="800">
           {skills.expertiseName}
         </Text>
       </Container>

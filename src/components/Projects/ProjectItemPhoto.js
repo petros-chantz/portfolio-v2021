@@ -17,5 +17,5 @@ const PhotoWrapper = styled.div`
 
 export default function ProjectItemPhoto(props) {
   const { project } = props;
-  return <PhotoWrapper projectPhoto={project.photoCover}>hello</PhotoWrapper>;
+  return <PhotoWrapper projectPhoto={project.photoCover}></PhotoWrapper>;
 }
