@@ -10,6 +10,8 @@ export const Container = styled.div`
   place-items: ${(props) => props.place};
   padding: ${(props) => props.padding};
   margin: ${(props) => props.margin};
+  width: ${(props) => props.width};
+  height: ${(props) => props.height};
 `;
 
 export const PaddingPage = styled(Container)`
