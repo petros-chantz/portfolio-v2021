@@ -6,7 +6,7 @@ export default function ExperienceYearsListItem(props) {
   return (
     <Container place="center" rows="3fr 1fr">
       <Container>
-        <Text fontSize="90px" fontWeight="700">
+        <Text fontSize="96px" fontWeight="700">
           {props.number}
         </Text>
       </Container>
