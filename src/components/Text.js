@@ -26,3 +26,8 @@ export const Text = styled.p`
   text-transform: ${(props) => props.transform};
   line-height: ${(props) => props.lineHeight};
 `;
+
+export const QuotationMarks = styled(Text)`
+  font-family: "Coda Caption", sans-serif;
+  font-size: 100px;
+`;
