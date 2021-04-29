@@ -9,13 +9,11 @@ const PaddingExperience = styled(Container)`
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: 1fr;
   }
-  @media screen and (max-width: ${breakpoints.laptopLScreen}) {
-  }
-  @media screen and (max-width: ${breakpoints.laptopMScreen}) {
-  }
+
   @media screen and (max-width: ${breakpoints.laptopScreen}) {
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
   }
   @media screen and (max-width: ${breakpoints.tabletScreen}) {
   }
@@ -25,7 +23,7 @@ const PaddingExperience = styled(Container)`
 
 export default function ExperienceYearsList() {
   return (
-    <Container gap="100px">
+    <PaddingExperience gap="50px">
       <ExperienceYearsListItem number="5" topic="research projects" />
       <ExperienceYearsListItem number="3" topic="commercial projects" />
       <ExperienceYearsListItem
@@ -36,6 +34,6 @@ export default function ExperienceYearsList() {
         number="3+"
         topic="years of commercial experience"
       />
-    </Container>
+    </PaddingExperience>
   );
 }
