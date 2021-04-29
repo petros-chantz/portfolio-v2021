@@ -32,3 +32,12 @@ export const PaddingPage = styled(Container)`
     padding: 100px 30px 0px 30px;
   }
 `;
+
+export const ContainerSkillsStack = styled(Container)`
+  background-color: ${(props) => props.theme.color.backgroundSkillsStack};
+  border-radius: ${(props) => props.theme.borderRadius};
+`;
+
+export const ContainerSkillsStackItem = styled(Container)`
+  background-color: ${(props) => props.theme.color.backgroundSkillsStack};
+`;

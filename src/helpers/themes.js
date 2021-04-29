@@ -13,6 +13,7 @@ export const light = {
     background: "#FFFFFF",
     link: "#0C60BB",
     backgroundSkillsStack: "#FFFFFF",
+    borderSkills: "#8EB8E5",
   },
   borderRadius: "0px",
   icons: {
@@ -29,6 +30,7 @@ export const dark = {
     background: "#262627",
     link: "#8EB8E5",
     backgroundSkillsStack: "#F1ECE3",
+    borderSkills: "#8EB8E5",
   },
   borderRadius: "5px",
   icons: {
