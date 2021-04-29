@@ -31,7 +31,7 @@ const SkillsPadding = styled(Container)`
 
 export default function Skills() {
   return (
-    <SkillsPadding gap="40px" place="center">
+    <SkillsPadding gap="40px" place="center" id="skills">
       <SkillsText />
       <SkillsTopicList />
       <SkillsStack />

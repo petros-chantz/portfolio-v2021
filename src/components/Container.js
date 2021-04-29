@@ -41,3 +41,8 @@ export const ContainerSkillsStack = styled(Container)`
 export const ContainerSkillsStackItem = styled(Container)`
   background-color: ${(props) => props.theme.color.backgroundSkillsStack};
 `;
+
+export const ContainerExperienceYearsItem = styled(Container)`
+  border: 4px solid ${(props) => props.theme.color.text};
+  border-radius: 4px;
+`;
