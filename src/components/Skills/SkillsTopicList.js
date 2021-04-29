@@ -6,15 +6,19 @@ import { breakpoints } from "./../../helpers/Media";
 import skills from "./../../data/skills.json";
 
 const ContainerSkillsTopic = styled(Container)`
-  background-color: ${(props) => props.theme.color.text};
-  border: 4px solid ${(props) => props.theme.color.borderSkills};
+  background-color: ${(props) => props.theme.color.background};
+  border: 4px solid ${(props) => props.theme.color.text};
   border-radius: 4px;
+
+  :hover {
+    border: 4px solid ${(props) => props.theme.color.link};
+  }
 `;
 
 function SkillsTopic(props) {
   const { skills } = props;
   return (
-    <ContainerSkillsTopic rows="70px 1fr">
+    <ContainerSkillsTopic rows="70px 200px">
       <Container place="center">
         <Text transform="uppercase" fontWeight="500">
           {skills.expertiseName}
@@ -43,10 +47,6 @@ const ContainerSkillsList = styled(Container)`
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     width: 70%;
-  }
-  @media screen and (max-width: ${breakpoints.tabletScreen}) {
-  }
-  @media screen and (max-width: ${breakpoints.mobileLScreen}) {
   }
 `;
 

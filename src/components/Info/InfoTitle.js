@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { breakpoints } from "../../helpers/Media";
 import { TitleBig } from "../Text";
 import { Container } from "../Container";
+import { Link } from "../Link";
 
 const InfoTitleBig = styled(TitleBig)`
   @media screen and (max-width: ${breakpoints.screen4k}) {
@@ -27,7 +28,17 @@ export default function InfoTitle() {
   return (
     <Container>
       <InfoTitleBig>Hey there,</InfoTitleBig>
-      <InfoTitleBig>Petros here!</InfoTitleBig>
+      <InfoTitleBig>
+        {" "}
+        <Link
+          href="https://www.linkedin.com/in/petroschantz/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Petros
+        </Link>{" "}
+        here!
+      </InfoTitleBig>
     </Container>
   );
 }

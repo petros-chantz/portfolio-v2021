@@ -15,7 +15,7 @@ export default function InfoLinks(props) {
   return (
     <>
       {props.colorTheme ? (
-        <Container columns="repeat(4,1fr)" gap="20px">
+        <Container columns="repeat(4,1fr)" gap="50px">
           <InfoLinksItem
             image={light.icons.email}
             imageHeight="50"
