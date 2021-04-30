@@ -5,11 +5,11 @@ import {
   ContainerSkillsStack,
 } from "../Container";
 import { Text } from "../Text";
-import Figma from "./../../images/Figma-Icon.svg";
-import Storybook from "./../../images/storybook.png";
-import ReactLogo from "./../../images/react-logo.png";
-import AWS from "./../../images/aws-logo.png";
-import StyledComponents from "./../../images/styled-components.svg";
+import Figma from "../../images/Figma-Icon.svg";
+import Storybook from "../../images/storybook.png";
+import ReactLogo from "../../images/react-logo.png";
+import AWS from "../../images/aws-logo.png";
+import StyledComponents from "../../images/styled-components.svg";
 
 export default function SkillsStack() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useSpring, animated } from "react-spring";
-import Me from "./../../images/me-small.jpg";
+import Me from "../../images/me-small.jpg";
 
 const calc = (x, y) => [
   -(y - window.innerHeight / 2) / 20,
