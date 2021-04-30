@@ -1,0 +1,85 @@
+
+{
+    "1": {
+      "id": "1",
+      "title": "JoyStick",
+      "photoCover": "./assets/Projects/joyStick.jpg",
+      "pdf": "./assets/pdf/AudioTales_Report.pdf",
+      "projectType": "Master Elective Course",
+      "description": " A self-contained, network connected tangible sleep quality measuring device for sleep research at the home setting. ",
+      "keywords": {
+        "keyword1": "Design Research",
+        "keyword2": "Data Analysis",
+        "keyword3": "Software Development",
+        "keyword4": "Prototyping"
+      },
+      "links": {
+        "linkA": {
+          "linkAddress": "https://www.dropbox.com/s/modl3ftnj9m1mbq/JoyStick%20CHI%20paper.pdf?dl=0",
+          "linkName": "submitted CHI paper"
+        },
+        "linkC": {
+            "linkAddress": "https://www.dropbox.com/sh/wekaqf05q9d3j82/AAAs0nITUqTGuhWSayxcFZQna?dl=0",
+            "linkName": "more photos"
+        },
+        "linkB": {
+          "linkAddress": "",
+          "linkName": ""
+        }
+      }
+    },
+    "2": {
+      "id": "2",
+      "title": "AudioTales",
+      "photoCover": "./assets/Projects/audioTales.jpg",
+      "projectType": "Master Group Project",
+      "description": "A smart home system created to motivate children to perform daily tasks through immersive and interactive storytelling. ",
+      "keywords": {
+        "keyword1": "Mix Methods Research",
+        "keyword2": "User Testing",
+        "keyword3": "Software Development",
+        "keyword4": "Prototyping"
+      },
+      "links": {
+        "linkA": {
+          "linkAddress": "https://www.dropbox.com/s/86v1zxor0fvn8tx/Audio%20Tales_Final%20Report.pdf?dl=0",
+          "linkName": "report"
+        },
+        "linkB": {
+          "linkAddress": "https://www.dropbox.com/sh/m92vif13kyhn13m/AABrZ466ZWVFuQqvCs20RluGa?dl=0",
+          "linkName": "more photos"
+        },
+        "linkC": {
+          "linkAddress": "",
+          "linkName": ""
+        }
+      }
+    },
+    "3": {
+      "id": "3",
+      "title": "In-store Customization",
+      "photoCover": "./assets/Projects/bachelor.jpg",
+      "projectType": "Final Bachelor Project",
+      "description": "Designing new in-store retail experiences based on embodied interaction for the personalization and customization of wearables. ",
+      "keywords": {
+        "keyword1": "Design Research",
+        "keyword2": "Client collaboration",
+        "keyword3": "Customer Journey Mapping",
+        "keyword4": "Prototyping"
+      },
+      "links": {
+        "linkA": {
+          "linkAddress": "https://www.dropbox.com/s/i324chhszc6l30i/Petros%20Chantzopoulos%20Final%20Bachelor%20Report.pdf?dl=0",
+          "linkName": "report"
+        },
+        "linkB": {
+          "linkAddress": "https://www.dropbox.com/sh/3fg87bzf6xysmx9/AAAWll88T3J7kqVdUEKOPspUa?dl=0",
+          "linkName": "more photos"
+        },
+        "linkC": {
+          "linkAddress": "",
+          "linkName": ""
+        }
+      }
+    }
+  }

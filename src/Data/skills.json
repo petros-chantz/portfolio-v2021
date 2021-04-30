@@ -1,0 +1,38 @@
+{
+    "1": {
+        "expertiseName": "UX RESEARCH",
+        "skills": {
+            "skill1": "Design Thinking - Prototyping",
+            "skill2": "Usability Evaluation/Testing",
+            "skill3": "Mixed Research Methods",
+            "skill4": "Thematic Data Analysis",
+            "skill5": "Customer Journey Mapping",
+            "skill6": "Defining Client Vision/Goals"
+        }
+        
+    },
+    "2": {
+        "expertiseName": "UI DESIGN",
+        "skills": {
+            "skill1": "Adobe Suite",
+            "skill2": "Figma - Framer - InVision",
+            "skill3": "StoryBook - Chromatic - Zeplin",
+            "skill4": "Design Systems - Styled Components",
+            "skill5": "Tailwind CSS - Chakra UI - Material UI",
+            "skill6": "React Spring"  
+
+        }
+    },
+    "3": {
+        "expertiseName": "FRONTEND DEVELOPMENT",
+        "skills": {
+            "skill1": "JavaScript ES6",
+            "skill2": "React.js - TypeScript - D3.js",
+            "skill3": "REST API - GraphQL ",
+            "skill4": "AWS (S3, Route 53, Amplify) - Netlify",
+            "skill5": "Git / GitHub",
+            "skill6": "Agile / Scrum - Debugging"
+
+        }
+    }
+}
