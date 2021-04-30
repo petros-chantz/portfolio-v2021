@@ -36,10 +36,9 @@ export default function Experience() {
     <PaddingExperience gap="50px" id="experience">
       <Container padding="0px 50px 0px 0px">
         <Quotes
-          quotesText="As my skills are multi-phased, so is my professional experience.
-      In the past four years I have had the chance to work in multiple academic research projects as a research assistant,
-       in design research labs as a lab assistant and in commercial projects for
-       companies and freelancers such as Signify (Ex. Philips Lighting)."
+          quotesText="How are all these skills useful to you? Over the past 4+ years I
+        have worked in multiple academic research projects, in design research labs and in commercial projects
+        for and with freelancers and companies such as Signify (Ex. Philips Lighting)."
         />
       </Container>
       <Container>
