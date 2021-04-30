@@ -38,11 +38,7 @@ export default function Projects(props) {
   return (
     <PaddingProjects id="projects" gap="50px">
       <Container>
-        <Quotes
-          quotesText="Don’t tell me what the interaction is, just show it to me! So without further ado, here is a broad 
-        variety of projects I’ve worked on in the past 4 years spanning across UX Research,
-        UI Design and Frontend Development. Enjoy!"
-        />
+        <Quotes quotesText="So without further ado..." />
       </Container>
       <ProjectList colorTheme={props.colorTheme} />
       <Container place="center end" padding="50px 0px 0px 0px">
