@@ -30,7 +30,7 @@ function ProjectItemLinks(props) {
   const { project } = props;
   return (
     <Container columns="repeat(3, 100px)" place="center start">
-      <IconBoxLink />
+      <IconBoxLink project={project} />
     </Container>
   );
 }
