@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import "./helpers/App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./pages/Navbar";
@@ -8,21 +7,10 @@ import Skills from "./pages/Skills";
 import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 import Footer from "./pages/Footer";
-=======
-import "./styles/App.css";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router } from "react-router-dom";
-import NavBar from "./Components/Navbar/NavBar.js";
-import Home from "./Pages/Home";
-import Skills from "./Pages/Skills/Skills";
-import Experience from "./Pages/Experience/Experience";
-import Projects from "./Pages/Projects/Projects";
->>>>>>> main
 
 export default function App(props) {
   return (
     <Router>
-<<<<<<< HEAD
       <Container>
         <Navbar
           handleThemeChange={props.handleThemeChange}
@@ -34,13 +22,6 @@ export default function App(props) {
         <Projects />
         <Footer />
       </Container>
-=======
-      <NavBar />
-      <Home />
-      <Skills />
-      <Experience />
-      <Projects />
->>>>>>> main
     </Router>
   );
 }
