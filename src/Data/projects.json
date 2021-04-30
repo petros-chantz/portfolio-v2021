@@ -6,6 +6,7 @@
       "photoCover": "./assets/Projects/joyStick.jpg",
       "pdf": "./assets/pdf/AudioTales_Report.pdf",
       "projectType": "Master Elective Course",
+      "extraLinks": false,
       "description": " A self-contained, network connected tangible sleep quality measuring device for sleep research at the home setting. ",
       "keywords": {
         "keyword1": "Design Research",
@@ -18,13 +19,9 @@
           "linkAddress": "https://www.dropbox.com/s/modl3ftnj9m1mbq/JoyStick%20CHI%20paper.pdf?dl=0",
           "linkName": "submitted CHI paper"
         },
-        "linkC": {
+        "linkB": {
             "linkAddress": "https://www.dropbox.com/sh/wekaqf05q9d3j82/AAAs0nITUqTGuhWSayxcFZQna?dl=0",
             "linkName": "more photos"
-        },
-        "linkB": {
-          "linkAddress": "",
-          "linkName": ""
         }
       }
     },
@@ -33,6 +30,7 @@
       "title": "AudioTales",
       "photoCover": "./assets/Projects/audioTales.jpg",
       "projectType": "Master Group Project",
+      "extraLinks": false,
       "description": "A smart home system created to motivate children to perform daily tasks through immersive and interactive storytelling. ",
       "keywords": {
         "keyword1": "Mix Methods Research",
@@ -48,10 +46,6 @@
         "linkB": {
           "linkAddress": "https://www.dropbox.com/sh/m92vif13kyhn13m/AABrZ466ZWVFuQqvCs20RluGa?dl=0",
           "linkName": "more photos"
-        },
-        "linkC": {
-          "linkAddress": "",
-          "linkName": ""
         }
       }
     },
@@ -60,6 +54,7 @@
       "title": "In-store Customization",
       "photoCover": "./assets/Projects/bachelor.jpg",
       "projectType": "Final Bachelor Project",
+      "extraLinks": false,
       "description": "Designing new in-store retail experiences based on embodied interaction for the personalization and customization of wearables. ",
       "keywords": {
         "keyword1": "Design Research",
@@ -75,10 +70,6 @@
         "linkB": {
           "linkAddress": "https://www.dropbox.com/sh/3fg87bzf6xysmx9/AAAWll88T3J7kqVdUEKOPspUa?dl=0",
           "linkName": "more photos"
-        },
-        "linkC": {
-          "linkAddress": "",
-          "linkName": ""
         }
       }
     }
