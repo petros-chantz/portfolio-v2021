@@ -2,9 +2,6 @@ import React from "react";
 import { Container } from "../Container";
 import IconBoxLink from "../IconBoxLink";
 import { Text } from "../Text";
-// import reportIcon from "./../../images/icons/report.svg";
-// import cameraIcon from "./../../images/icons/camera.svg";
-// import githubIcon from "./../../images/icons/github.svg";
 
 function ProjectItemTitles(props) {
   const { project } = props;
@@ -34,9 +31,6 @@ function ProjectItemLinks(props) {
   return (
     <Container columns="repeat(3, 100px)" place="center start">
       <IconBoxLink />
-      {/* <IconBoxLink image={ReportIcon} imageHeight="40" />
-      <IconBoxLink image={ReportIcon} imageHeight="50" />
-      <IconBoxLink image={ReportIcon} imageHeight="40" /> */}
     </Container>
   );
 }
@@ -51,5 +45,3 @@ export default function ProjectItemContent(props) {
     </Container>
   );
 }
-
-// width = "100%";

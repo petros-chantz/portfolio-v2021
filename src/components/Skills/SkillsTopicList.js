@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Container } from "../Container";
 import { Text } from "../Text";
 import { breakpoints } from "./../../helpers/Media";
-import skills from "./../../data/skills.json";
+import skills from "./../../Data/skills.json";
 
 const ContainerSkillsTopic = styled(Container)`
   background-color: ${(props) => props.theme.color.background};
