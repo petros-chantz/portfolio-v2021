@@ -19,7 +19,7 @@ export default function App(props) {
         <Info colorTheme={props.colorTheme} />
         <Skills />
         <Experience />
-        <Projects />
+        <Projects colorTheme={props.colorTheme} />
         <Footer />
       </Container>
     </Router>

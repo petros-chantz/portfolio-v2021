@@ -10,7 +10,7 @@ export default function ProjectItemContent(props) {
     <Container gap="25px">
       <ProjectItemTitles project={project} />
       <ProjectItemDescription project={project} />
-      <ProjectItemLinks project={project} />
+      <ProjectItemLinks project={project} colorTheme={props.colorTheme} />
     </Container>
   );
 }
