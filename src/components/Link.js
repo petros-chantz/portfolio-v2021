@@ -17,3 +17,7 @@ export const Link = styled.a`
 export const LinkVisible = styled(Link)`
   color: ${(props) => props.theme.color.link};
 `;
+
+export const LinkIcon = styled.a`
+  cursor: pointer;
+`;

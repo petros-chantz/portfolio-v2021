@@ -1,8 +1,10 @@
 import React from "react";
 import { Container } from "../Container";
-import IconBox from "../IconBox";
+import IconBoxLink from "../IconBoxLink";
 import { Text } from "../Text";
-import test from "./../../images/icons/report.svg";
+// import reportIcon from "./../../images/icons/report.svg";
+// import cameraIcon from "./../../images/icons/camera.svg";
+// import githubIcon from "./../../images/icons/github.svg";
 
 function ProjectItemTitles(props) {
   const { project } = props;
@@ -31,7 +33,10 @@ function ProjectItemLinks(props) {
   const { project } = props;
   return (
     <Container columns="repeat(3, 100px)" place="center start">
-      <IconBox image={test} imageHeight="50" />
+      <IconBoxLink />
+      {/* <IconBoxLink image={ReportIcon} imageHeight="40" />
+      <IconBoxLink image={ReportIcon} imageHeight="50" />
+      <IconBoxLink image={ReportIcon} imageHeight="40" /> */}
     </Container>
   );
 }
