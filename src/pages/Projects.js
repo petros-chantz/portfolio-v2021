@@ -39,10 +39,9 @@ export default function Projects() {
     <PaddingProjects id="projects" gap="50px">
       <Container>
         <Quotes
-          quotesText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. "
+          quotesText="Don’t tell me 
+        what the interaction is, just show it to me! So without further
+        ado, here is a broad variety of projects I’ve worked on."
         />
       </Container>
       <ProjectList />
