@@ -34,10 +34,10 @@ export default function Skills() {
   return (
     <SkillsPadding gap="40px" place="center" id="skills">
       <Quotes
-        quotesText="I wear a lot of hats. I’m a strong believer in the practise of 
-      self-directed and continuous learning and the ability to self reflect before action taking.I’m a person who wears a lot of hats.
-      Above all I am a strong believer in the practise of self-directed and continuous learning and the ability to self
-      reflect before action taking."
+        quotesText="I wear a lot of hats and more often than not they overlap 
+      one another. I’m not afraid to say ‘I don’t
+       know’ but also ‘I would like you to show me how to do it better’.
+        My personal motto is self-reflect and keep on learning!"
       />
       <SkillsTopicList />
       <SkillsStack />
