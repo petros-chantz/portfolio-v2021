@@ -34,7 +34,7 @@ const PaddingProjects = styled(Container)`
   }
 `;
 
-export default function Projects() {
+export default function Projects(props) {
   return (
     <PaddingProjects id="projects" gap="50px">
       <Container>
@@ -44,7 +44,7 @@ export default function Projects() {
         UI Design and Frontend Development. Enjoy!"
         />
       </Container>
-      <ProjectList />
+      <ProjectList colorTheme={props.colorTheme} />
       <Container place="center end" padding="50px 0px 0px 0px">
         <HashLink smooth to="/#top">
           <Text fontSize="40px">Back to the top</Text>

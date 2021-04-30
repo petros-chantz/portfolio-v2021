@@ -20,11 +20,13 @@ const ContainerProjectList = styled(Container)`
   }
 `;
 
-export default function ProjectList() {
+export default function ProjectList(props) {
   return (
     <ContainerProjectList place="center" gap="100px">
       {Object.keys(projects).map((id) => {
-        return <ProjectItem project={projects[id]} />;
+        return (
+          <ProjectItem project={projects[id]} colorTheme={props.colorTheme} />
+        );
       })}
     </ContainerProjectList>
   );

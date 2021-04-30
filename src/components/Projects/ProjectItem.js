@@ -8,7 +8,7 @@ export default function ProjectItem(props) {
   return (
     <Container rows="2fr 1fr" place="center" gap="30px" width="100%">
       <ProjectItemPhoto project={project} />
-      <ProjectItemContent project={project} />
+      <ProjectItemContent project={project} colorTheme={props.colorTheme} />
     </Container>
   );
 }
