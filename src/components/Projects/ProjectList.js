@@ -3,7 +3,7 @@ import { Container } from "../Container";
 import ProjectItem from "../Projects/ProjectItem";
 import { breakpoints } from "./../../helpers/Media";
 import styled from "styled-components";
-import projects from "./../../data/projects.json";
+import projects from "./../../Data/projects.json";
 
 const ContainerProjectList = styled(Container)`
   @media screen and (max-width: ${breakpoints.screen4k}) {
