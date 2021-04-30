@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { breakpoints } from "./../helpers/Media";
 
 export const TitleBig = styled.h2`
   color: ${(props) => props.theme.color.text};
@@ -18,6 +19,10 @@ export const TitleRegular = styled.h4`
   text-transform: ${(props) => props.transform};
   line-height: ${(props) => props.lineHeight};
   letter-spacing: ${(props) => props.spacing};
+
+  // @media screen and (max-width: ${breakpoints.mobileLScreen}) {
+  //   font-size: 30px;
+  // }
 `;
 
 export const Text = styled.p`
