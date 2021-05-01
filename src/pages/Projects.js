@@ -11,7 +11,7 @@ const PaddingProjects = styled(Container)`
   @media screen and (max-width: ${breakpoints.screen4k}) {
     padding: 100px 500px 0px 500px;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr 100px;
+    grid-template-rows: 1fr 100px;
   }
   @media screen and (max-width: ${breakpoints.laptopLScreen}) {
     padding: 100px 190px 0px 190px;
@@ -22,11 +22,11 @@ const PaddingProjects = styled(Container)`
   @media screen and (max-width: ${breakpoints.laptopScreen}) {
     padding: 100px 150px 0px 150px;
     grid-template-columns: 1fr;
-    grid-template-rows: 700px 1fr 100px;
+    grid-template-rows: 1fr 100px;
   }
   @media screen and (max-width: ${breakpoints.tabletScreen}) {
     padding: 100px 100px 0px 100px;
-    grid-template-rows: 1fr 3fr 100px;
+    grid-template-rows: 1fr 100px;
     grid-template-columns: 1fr;
   }
   @media screen and (max-width: ${breakpoints.mobileLScreen}) {
@@ -37,13 +37,6 @@ const PaddingProjects = styled(Container)`
 export default function Projects(props) {
   return (
     <PaddingProjects id="projects" gap="50px">
-      <Container>
-        <Quotes
-          quotesText="Don’t tell me what the interaction is, just show it to me! So without further ado, here is a broad 
-        variety of projects I’ve worked on in the past 4 years spanning across UX Research,
-        UI Design and Frontend Development. Enjoy!"
-        />
-      </Container>
       <ProjectList colorTheme={props.colorTheme} />
       <Container place="center end" padding="50px 0px 0px 0px">
         <HashLink smooth to="/#top">
