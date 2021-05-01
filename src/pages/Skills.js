@@ -1,21 +1,8 @@
 import React from "react";
-import { Padding } from "./../components/Container";
+import { SkillsContainer } from "./../components/Container";
 import Quotes from "./../components/Quotes";
 import SkillsTopicList from "../components/Skills/SkillsTopicList";
-import { breakpoints } from "./../helpers/Media";
-import styled from "styled-components";
 import SkillsStack from "../components/Skills/SkillsStack";
-
-const SkillsContainer = styled(Padding)`
-  @media screen and (max-width: ${breakpoints.screen4k}) {
-    grid-template-rows: 1fr 300px 200px;
-    grid-template-columns: 1fr;
-  }
-
-  @media screen and (max-width: ${breakpoints.laptopScreen}) {
-    grid-template-rows: 1fr 1fr 200px;
-  }
-`;
 
 export default function Skills() {
   return (

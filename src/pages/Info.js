@@ -1,7 +1,6 @@
 import React from "react";
-import { Container } from "../components/Container";
+import { Container, InfoContainer } from "../components/Container";
 import InfoLinks from "../components/Info/InfoLinks";
-import { InfoContainer } from "../components/Info/InfoContainer";
 import HomePhoto from "../components/Info/InfoPhoto";
 import InfoText from "../components/Info/InfoText";
 import InfoTitle from "../components/Info/InfoTitle";

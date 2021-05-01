@@ -1,24 +1,7 @@
 import React from "react";
-import { Padding, Container } from "../components/Container";
-import { breakpoints } from "./../helpers/Media";
-import styled from "styled-components";
+import { ExperienceContainer, Container } from "../components/Container";
 import ExperienceYearsList from "../components/Experience/ExperienceYearsList";
 import Quotes from "../components/Quotes";
-
-const ExperienceContainer = styled(Padding)`
-  @media screen and (max-width: ${breakpoints.screen4k}) {
-    grid-template-rows: 800px;
-    grid-template-columns: 2fr 1fr;
-  }
-  @media screen and (max-width: ${breakpoints.laptopLScreen}) {
-    grid-template-rows: 1fr;
-  }
-
-  @media screen and (max-width: ${breakpoints.laptopScreen}) {
-    grid-template-rows: 1fr 500px;
-    grid-template-columns: 1fr;
-  }
-`;
 
 export default function Experience() {
   return (
