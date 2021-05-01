@@ -1,13 +1,12 @@
 import React from "react";
-import { Container } from "../components/Container";
-import { NavbarPadding } from "../components/Navbar/NavbarPadding";
+import { Container, Padding } from "../components/Container";
 import NavbarLink from "../components/Navbar/NavbarLink";
 import { Text } from "../components/Text";
 import { Button } from "../components/Button";
 
 export default function Navbar(props) {
   return (
-    <NavbarPadding columns="repeat(2, 1fr)" id="top">
+    <Padding columns="repeat(2, 1fr)" id="top">
       <Container place="center start">
         <Button onClick={props.handleThemeChange}>
           {props.colorTheme ? (
@@ -22,6 +21,6 @@ export default function Navbar(props) {
         <NavbarLink HashLink="/#experience" HashLinkName="experience" />
         <NavbarLink HashLink="/#projects" HashLinkName="projects" />
       </Container>
-    </NavbarPadding>
+    </Padding>
   );
 }
