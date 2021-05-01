@@ -6,8 +6,8 @@ import ExperienceYearsListItem from "./ExperienceYearsListItem";
 
 const PaddingExperience = styled(Container)`
   @media screen and (max-width: ${breakpoints.screen4k}) {
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 1fr);
   }
 
   @media screen and (max-width: ${breakpoints.laptopScreen}) {
