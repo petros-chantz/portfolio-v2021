@@ -34,8 +34,3 @@ export const Text = styled.p`
   line-height: ${(props) => props.lineHeight};
   letter-spacing: ${(props) => props.spacing};
 `;
-
-export const QuotationMarks = styled(Text)`
-  font-family: "Coda Caption", sans-serif;
-  font-size: 100px;
-`;
