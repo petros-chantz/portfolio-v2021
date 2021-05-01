@@ -3,7 +3,6 @@ import { Container } from "../components/Container";
 import { breakpoints } from "./../helpers/Media";
 import { Text } from "./../components/Text";
 import styled from "styled-components";
-import Quotes from "../components/Quotes";
 import ProjectList from "../components/Projects/ProjectList";
 import { HashLink } from "react-router-hash-link";
 
