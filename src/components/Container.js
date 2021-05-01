@@ -14,7 +14,7 @@ export const Container = styled.div`
   height: ${(props) => props.height};
 `;
 
-export const PaddingPage = styled(Container)`
+export const Padding = styled(Container)`
   @media screen and (max-width: ${breakpoints.screen4k}) {
     padding: 100px 550px 50px 550px;
   }
