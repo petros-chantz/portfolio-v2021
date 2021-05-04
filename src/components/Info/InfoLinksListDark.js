@@ -10,7 +10,7 @@ import { dark } from "../../helpers/themes";
 export default function InfoLinksIconsListDark(props) {
   return (
     <>
-      <ContainerLinkIcon place="center start">
+      <ContainerLinkIcon place="center">
         <LinkIcon
           href="mailto: petros.chantz@gmail.com"
           target="_blank"
@@ -19,7 +19,7 @@ export default function InfoLinksIconsListDark(props) {
           <Email color={dark.color.link} />
         </LinkIcon>
       </ContainerLinkIcon>
-      <ContainerLinkIcon place="center start">
+      <ContainerLinkIcon place="center">
         <LinkIcon
           href="https://www.dropbox.com/s/tfq10r1cp2ow0ua/Petros-Chantzopoulos-CV.pdf?dl=0"
           target="_blank"
@@ -28,7 +28,7 @@ export default function InfoLinksIconsListDark(props) {
           <Cv color={dark.color.link} />
         </LinkIcon>
       </ContainerLinkIcon>
-      <ContainerLinkIcon place="center start">
+      <ContainerLinkIcon place="center">
         <LinkIcon
           href="https://www.linkedin.com/in/petroschantz/"
           target="_blank"
@@ -37,7 +37,7 @@ export default function InfoLinksIconsListDark(props) {
           <LinkedIn color={dark.color.link} />
         </LinkIcon>
       </ContainerLinkIcon>
-      <ContainerLinkIcon place="center start">
+      <ContainerLinkIcon place="center">
         <LinkIcon
           href="https://github.com/petros-chantz"
           target="_blank"
