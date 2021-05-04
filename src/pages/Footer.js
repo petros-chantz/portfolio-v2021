@@ -11,36 +11,26 @@ const FooterLink = styled.a`
 
 const PaddingFooter = styled(Container)`
   @media screen and (max-width: ${breakpoints.screen4k}) {
-    padding: 100px 500px 50px 500px;
     grid-template-columns: repeat(2, 1fr);
     grid-templete-rows: 1fr;
   }
-  @media screen and (max-width: ${breakpoints.laptopLScreen}) {
-    padding: 100px 190px 50px 190px;
-  }
-  @media screen and (max-width: ${breakpoints.laptopMScreen}) {
-    padding: 100px 190px 50px 190px;
-  }
   @media screen and (max-width: ${breakpoints.laptopScreen}) {
-    padding: 100px 150px 50px 150px;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: 1fr;
     place-items: center;
     grid-gap: 20px;
   }
   @media screen and (max-width: ${breakpoints.tabletScreen}) {
-    padding: 100px 100px 50px 100px;
     place-items: center;
   }
   @media screen and (max-width: ${breakpoints.mobileLScreen}) {
-    padding: 100px 30px 50px 30px;
     place-items: center;
   }
 `;
 
 export default function Footer() {
   return (
-    <PaddingFooter>
+    <PaddingFooter padding="50px 0px 10px 0px">
       <Container place="center start">
         <Text textAlign="center">
           Petros Chantzopoulos - April 2021 - v3.0.0
