@@ -1,7 +1,7 @@
 import React from "react";
 import { ExperienceContainer, Container } from "../components/Container";
 import ExperienceYearsList from "../components/Experience/ExperienceYearsList";
-import { TextLarge } from "../components/Text";
+import { TextBig, TextLarge } from "../components/Text";
 
 export default function Experience() {
   return (
@@ -10,6 +10,9 @@ export default function Experience() {
       id="experience"
       padding="100px 0px 100px 0px"
     >
+      <Container place="center start">
+        <TextBig>Experience</TextBig>
+      </Container>
       <Container>
         <TextLarge>
           Over the past 4+ years and in parallel with my studies I have had the

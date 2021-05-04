@@ -37,6 +37,13 @@ export const TextBig = styled.h4`
   text-transform: ${(props) => props.transform};
   line-height: ${(props) => props.lineHeight};
   letter-spacing: ${(props) => props.spacing};
+
+  @media screen and (max-width: ${breakpoints.screen4k}) {
+    font-size: 40px;
+  }
+  @media screen and (max-width: ${breakpoints.laptopLScreen}) {
+    font-size: 35px;
+  }
 `;
 
 export const TextLarge = styled.h6`
@@ -50,9 +57,6 @@ export const TextLarge = styled.h6`
     font-size: 30px;
   }
   @media screen and (max-width: ${breakpoints.laptopLScreen}) {
-    font-size: 25px;
-  }
-  @media screen and (max-width: ${breakpoints.mobileLScreen}) {
     font-size: 25px;
   }
 `;
