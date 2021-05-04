@@ -7,7 +7,7 @@ import InfoTitle from "../components/Info/InfoTitle";
 
 export default function Info(props) {
   return (
-    <InfoContainer gap="50px">
+    <InfoContainer gap="50px" padding="100px 0px 100px 0px">
       <Container>
         <HomePhoto />
       </Container>

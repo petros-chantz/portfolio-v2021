@@ -1,7 +1,7 @@
 import "./helpers/App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./pages/Navbar";
-import { Container } from "./components/Container";
+import { ContainerApp } from "./components/Container";
 import Info from "./pages/Info";
 import Skills from "./pages/Skills";
 import Experience from "./pages/Experience";
@@ -11,17 +11,17 @@ import Footer from "./pages/Footer";
 export default function App(props) {
   return (
     <Router>
-      <Container>
+      <ContainerApp>
         <Navbar
           handleThemeChange={props.handleThemeChange}
           colorTheme={props.colorTheme}
         />
         <Info colorTheme={props.colorTheme} />
-        {/* <Skills />
+        <Skills />
         <Experience />
         <Projects colorTheme={props.colorTheme} />
-        <Footer /> */}
-      </Container>
+        <Footer />
+      </ContainerApp>
     </Router>
   );
 }
