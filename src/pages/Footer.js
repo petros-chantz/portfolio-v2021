@@ -58,11 +58,11 @@ export default function Footer() {
           </FooterLink>{" "}
           Or{" "}
           <FooterLink
-            href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=hyyhpAY2Q1qBgHsx3FJ6BQ&qsl_reqcnt=1"
+            href="mailto: petros.chantz@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            buy me a coffee!
+            Email me!
           </FooterLink>
         </Text>
       </Container>
