@@ -4,7 +4,7 @@ import {
   ContainerSkillsStackItem,
   ContainerSkillsStack,
 } from "../Container";
-import { Text } from "../Text";
+import { TextRegular } from "../Text";
 import Figma from "../../images/Figma-Icon.svg";
 import Storybook from "../../images/storybook.png";
 import ReactLogo from "../../images/react-logo.png";
@@ -15,7 +15,7 @@ export default function SkillsStack() {
   return (
     <Container gap="10px">
       <Container place="center" padding="50px 0px 0px 0px">
-        <Text fontWeight="500">My current dev stack:</Text>
+        <TextRegular fontWeight="500">My current dev stack:</TextRegular>
       </Container>
       <ContainerSkillsStack columns="repeat(5,1fr)" padding="20px">
         <ContainerSkillsStackItem padding="10px" place="center">

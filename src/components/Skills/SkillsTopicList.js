@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Container } from "../Container";
-import { Text } from "../Text";
+import { TextRegular } from "../Text";
 import { breakpoints } from "./../../helpers/Media";
 import skills from "./../../Data/skills.json";
 
@@ -16,17 +16,17 @@ function SkillsTopic(props) {
   return (
     <ContainerSkillsTopic rows="70px 200px">
       <Container place="center">
-        <Text transform="uppercase" fontWeight="800">
+        <TextRegular transform="uppercase" fontWeight="800">
           {skills.expertiseName}
-        </Text>
+        </TextRegular>
       </Container>
       <Container place="center start" padding="20px">
-        <Text>{skills.skills.skill1}</Text>
-        <Text>{skills.skills.skill2}</Text>
-        <Text>{skills.skills.skill3}</Text>
-        <Text>{skills.skills.skill4}</Text>
-        <Text>{skills.skills.skill5}</Text>
-        <Text>{skills.skills.skill6}</Text>
+        <TextRegular>{skills.skills.skill1}</TextRegular>
+        <TextRegular>{skills.skills.skill2}</TextRegular>
+        <TextRegular>{skills.skills.skill3}</TextRegular>
+        <TextRegular>{skills.skills.skill4}</TextRegular>
+        <TextRegular>{skills.skills.skill5}</TextRegular>
+        <TextRegular>{skills.skills.skill6}</TextRegular>
       </Container>
     </ContainerSkillsTopic>
   );
