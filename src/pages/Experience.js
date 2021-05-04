@@ -5,8 +5,12 @@ import { Text } from "../components/Text";
 
 export default function Experience() {
   return (
-    <ExperienceContainer gap="50px" id="experience">
-      <Container>
+    <ExperienceContainer
+      gap="50px"
+      id="experience"
+      padding="100px 0px 100px 0px"
+    >
+      <Container padding="0px 50px 0px 0px">
         <Text fontSize="40px" fontWeight="600" textAlign="justify">
           Over the past 4+ years and in parallel with my studies I have had the
           chance to apply some of my skills and expertises in real-world
