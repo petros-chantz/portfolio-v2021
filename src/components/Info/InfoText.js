@@ -1,7 +1,5 @@
-import styled from "styled-components";
 import { Container } from "../Container";
 import { TextLarge } from "../Text";
-import { breakpoints } from "./../../helpers/Media";
 
 export default function InfoText() {
   return (

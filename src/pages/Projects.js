@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, ProjectsContainer } from "../components/Container";
-import { TextB, TextBigig } from "./../components/Text";
+import { TextBig } from "./../components/Text";
 import ProjectList from "../components/Projects/ProjectList";
 import { HashLink } from "react-router-hash-link";
 

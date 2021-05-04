@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "../Container";
-import { Text, TextHuge, TextRegular } from "../Text";
+import { TextHuge, TextRegular } from "../Text";
 
 export default function ExperienceYearsListItem(props) {
   return (

@@ -2,7 +2,7 @@ import React from "react";
 import { SkillsContainer } from "./../components/Container";
 import SkillsTopicList from "../components/Skills/SkillsTopicList";
 import SkillsStack from "../components/Skills/SkillsStack";
-import { TextLargerge } from "../components/Text";
+import { TextLarge } from "../components/Text";
 
 export default function Skills() {
   return (
