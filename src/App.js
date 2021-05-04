@@ -1,7 +1,7 @@
 import "./helpers/App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./pages/Navbar";
-import { Container, ContainerApp } from "./components/Container";
+import { ContainerApp } from "./components/Container";
 import Info from "./pages/Info";
 import Skills from "./pages/Skills";
 import Experience from "./pages/Experience";
