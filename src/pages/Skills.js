@@ -1,10 +1,10 @@
 import React from "react";
 import { Container } from "./../components/Container";
-import Quotes from "./../components/Quotes";
 import SkillsTopicList from "../components/Skills/SkillsTopicList";
 import { breakpoints } from "./../helpers/Media";
 import styled from "styled-components";
 import SkillsStack from "../components/Skills/SkillsStack";
+import { Text } from "../components/Text";
 
 const SkillsPadding = styled(Container)`
   @media screen and (max-width: ${breakpoints.screen4k}) {
@@ -33,14 +33,11 @@ const SkillsPadding = styled(Container)`
 export default function Skills() {
   return (
     <SkillsPadding gap="40px" place="center" id="skills">
-      <Quotes
-        quotesText="I wear a lot of hats and more often than not they overlap one another.
-         I strongly believe that designing products, services and or systems for societal
-          impact require a certain breadth, interdisciplinarity and flexibility
-           in one’s own skillset. I’m not afraid to say
-      ‘I don’t know’ but also ‘I would like you to show me how
-      to do it better’. My personal motto is self-reflect and keep on learning!"
-      />
+      <Text fontSize="40px" textAlign="justify" fontWeight="600">
+        I wear a lot of hats and more often than not they overlap one another. I
+        acquire a broad, flexible and interdisciplinarity skillset which I use
+        based on the task at hand.
+      </Text>
       <SkillsTopicList />
       <SkillsStack />
     </SkillsPadding>

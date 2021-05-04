@@ -3,25 +3,20 @@ import { Container } from "../components/Container";
 import { breakpoints } from "./../helpers/Media";
 import styled from "styled-components";
 import ExperienceYearsList from "../components/Experience/ExperienceYearsList";
-import Quotes from "../components/Quotes";
+import { Text } from "../components/Text";
 
 const PaddingExperience = styled(Container)`
   @media screen and (max-width: ${breakpoints.screen4k}) {
     padding: 100px 500px 0px 500px;
-    grid-template-rows: 800px;
-    grid-template-columns: 2fr 1fr;
   }
   @media screen and (max-width: ${breakpoints.laptopLScreen}) {
     padding: 100px 190px 0px 190px;
-    grid-template-rows: 1fr;
   }
   @media screen and (max-width: ${breakpoints.laptopMScreen}) {
     padding: 100px 190px 0px 190px;
   }
   @media screen and (max-width: ${breakpoints.laptopScreen}) {
     padding: 100px 150px 0px 150px;
-    grid-template-rows: 1fr 500px;
-    grid-template-columns: 1fr;
   }
   @media screen and (max-width: ${breakpoints.tabletScreen}) {
     padding: 100px 100px 0px 100px;
@@ -34,13 +29,12 @@ const PaddingExperience = styled(Container)`
 export default function Experience() {
   return (
     <PaddingExperience gap="50px" id="experience">
-      <Container padding="0px 50px 0px 0px">
-        <Quotes
-          quotesText="How are all these skills useful to you? Over the past 4+ years I have
-        had the chance to work in multiple academic research projects as a research assistant, in design
-        research labs as a lab assistant and in commercial projects for freelancers and
-        companies such as Signify (Ex. Philips Lighting)."
-        />
+      <Container>
+        <Text fontSize="40px" fontWeight="600" textAlign="justify">
+          I’m not afraid to say ‘I don’t know’ but also ‘I would like you to
+          show me how to do it better’. I embrace self-reflection and
+          self-directed and continuous learning.
+        </Text>
       </Container>
       <Container>
         <ExperienceYearsList />
