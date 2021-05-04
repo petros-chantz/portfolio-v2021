@@ -4,16 +4,9 @@
       "id": "1",
       "title": "JoyStick",
       "photoCover": "./assets/Projects/joyStick.jpg",
-      "pdf": "./assets/pdf/AudioTales_Report.pdf",
-      "projectType": "Master Elective Course",
+      "projectType": "UX Research",
       "extraLinks": false,
       "description": " A self-contained, network connected tangible sleep quality measuring device for sleep research at the home setting. ",
-      "keywords": {
-        "keyword1": "Design Research",
-        "keyword2": "Data Analysis",
-        "keyword3": "Software Development",
-        "keyword4": "Prototyping"
-      },
       "links": {
         "linkA": {
           "linkAddress": "https://www.dropbox.com/s/modl3ftnj9m1mbq/JoyStick%20CHI%20paper.pdf?dl=0",
@@ -29,15 +22,9 @@
       "id": "2",
       "title": "AudioTales",
       "photoCover": "./assets/Projects/audioTales.jpg",
-      "projectType": "Master Group Project",
+      "projectType": "UX Design",
       "extraLinks": false,
       "description": "A smart home system created to motivate children to perform daily tasks through immersive and interactive storytelling. ",
-      "keywords": {
-        "keyword1": "Mix Methods Research",
-        "keyword2": "User Testing",
-        "keyword3": "Software Development",
-        "keyword4": "Prototyping"
-      },
       "links": {
         "linkA": {
           "linkAddress": "https://www.dropbox.com/s/86v1zxor0fvn8tx/Audio%20Tales_Final%20Report.pdf?dl=0",
@@ -53,15 +40,9 @@
       "id": "3",
       "title": "In-store Customization",
       "photoCover": "./assets/Projects/bachelor.jpg",
-      "projectType": "Final Bachelor Project",
+      "projectType": "UX/UI Design",
       "extraLinks": false,
       "description": "Designing new in-store retail experiences based on embodied interaction for the personalization and customization of wearables. ",
-      "keywords": {
-        "keyword1": "Design Research",
-        "keyword2": "Client collaboration",
-        "keyword3": "Customer Journey Mapping",
-        "keyword4": "Prototyping"
-      },
       "links": {
         "linkA": {
           "linkAddress": "https://www.dropbox.com/s/i324chhszc6l30i/Petros%20Chantzopoulos%20Final%20Bachelor%20Report.pdf?dl=0",
