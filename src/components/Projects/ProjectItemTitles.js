@@ -7,7 +7,9 @@ export default function ProjectItemTitles(props) {
   return (
     <Container columns="2fr 1fr">
       <Container place="center start">
-        <TextRegular fontWeight="700">{project.title}</TextRegular>
+        <TextRegular fontWeight="700" spacing="1px">
+          {project.title}
+        </TextRegular>
       </Container>
       <Container place="center end">
         <TextRegular>{project.projectType}</TextRegular>

@@ -11,7 +11,7 @@ export default function ExperienceYearsListItem(props) {
         </TextHuge>
       </Container>
       <Container>
-        <TextRegular textAlign="center" fontWeight="600">
+        <TextRegular textAlign="center" fontWeight="600" spacing="1px">
           {props.topic}
         </TextRegular>
       </Container>
