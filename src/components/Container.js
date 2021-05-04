@@ -102,3 +102,10 @@ export const ProjectsContainer = styled(Padding)`
     grid-template-columns: 1fr;
   }
 `;
+
+export const ContainerLinkIcon = styled(Container)`
+  transition-duration: 0.3s;
+  :hover {
+    transform: scale(1.2);
+  }
+`;
