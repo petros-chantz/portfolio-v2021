@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "../../Container";
+import { ContainerLinkIcon } from "../../Container";
 import Report from "../../../images/IconComponents/Report";
 import Camera from "../../../images/IconComponents/Camera";
 import { LinkIcon } from "../../Link";
@@ -9,7 +9,7 @@ export default function IconListDark2(props) {
   const { project } = props;
   return (
     <>
-      <Container place="center start">
+      <ContainerLinkIcon place="center start">
         <LinkIcon
           href={project.links.linkA.linkAddress}
           target="_blank"
@@ -17,8 +17,8 @@ export default function IconListDark2(props) {
         >
           <Report color={dark.color.link} />
         </LinkIcon>
-      </Container>
-      <Container place="center start">
+      </ContainerLinkIcon>
+      <ContainerLinkIcon place="center start">
         <LinkIcon
           href={project.links.linkB.linkAddress}
           target="_blank"
@@ -26,7 +26,7 @@ export default function IconListDark2(props) {
         >
           <Camera color={dark.color.link} />
         </LinkIcon>
-      </Container>
+      </ContainerLinkIcon>
     </>
   );
 }

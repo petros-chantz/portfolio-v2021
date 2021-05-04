@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "../Container";
+import { ContainerLinkIcon } from "../Container";
 import Email from "../../images/IconComponents/Email";
 import Cv from "../../images/IconComponents/Cv";
 import LinkedIn from "../../images/IconComponents/LinkedIn";
@@ -10,7 +10,7 @@ import { light } from "../../helpers/themes";
 export default function InfoLinksIconsListLight(props) {
   return (
     <>
-      <Container place="center start">
+      <ContainerLinkIcon place="center start">
         <LinkIcon
           href={props.linkUrl}
           target="_blank"
@@ -18,8 +18,8 @@ export default function InfoLinksIconsListLight(props) {
         >
           <Email color={light.color.link} />
         </LinkIcon>
-      </Container>
-      <Container place="center start">
+      </ContainerLinkIcon>
+      <ContainerLinkIcon place="center start">
         <LinkIcon
           href={props.linkUrl}
           target="_blank"
@@ -27,8 +27,8 @@ export default function InfoLinksIconsListLight(props) {
         >
           <Cv color={light.color.link} />
         </LinkIcon>
-      </Container>
-      <Container place="center start">
+      </ContainerLinkIcon>
+      <ContainerLinkIcon place="center start">
         <LinkIcon
           href={props.linkUrl}
           target="_blank"
@@ -36,8 +36,8 @@ export default function InfoLinksIconsListLight(props) {
         >
           <LinkedIn color={light.color.link} />
         </LinkIcon>
-      </Container>
-      <Container place="center start">
+      </ContainerLinkIcon>
+      <ContainerLinkIcon place="center start">
         <LinkIcon
           href={props.linkUrl}
           target="_blank"
@@ -45,7 +45,7 @@ export default function InfoLinksIconsListLight(props) {
         >
           <Github color={light.color.link} />
         </LinkIcon>
-      </Container>
+      </ContainerLinkIcon>
     </>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "../../Container";
+import { ContainerLinkIcon } from "../../Container";
 import Github from "../../../images/IconComponents/Github";
 import Flag from "../../../images/IconComponents/Flag";
 import { LinkIcon } from "../../Link";
@@ -9,7 +9,7 @@ export default function IconListDark3(props) {
   const { project } = props;
   return (
     <>
-      <Container place="center start">
+      <ContainerLinkIcon place="center start">
         <LinkIcon
           href={project.links.linkA.linkAddress}
           target="_blank"
@@ -17,8 +17,8 @@ export default function IconListDark3(props) {
         >
           <Flag color={light.color.link} />
         </LinkIcon>
-      </Container>
-      <Container place="center start">
+      </ContainerLinkIcon>
+      <ContainerLinkIcon place="center start">
         <LinkIcon
           href={project.links.linkB.linkAddress}
           target="_blank"
@@ -26,8 +26,8 @@ export default function IconListDark3(props) {
         >
           <Github color={light.color.link} />
         </LinkIcon>
-      </Container>
-      <Container place="center start">
+      </ContainerLinkIcon>
+      <ContainerLinkIcon place="center start">
         <LinkIcon
           href={project.links.linkB.linkAddress}
           target="_blank"
@@ -35,7 +35,7 @@ export default function IconListDark3(props) {
         >
           Reflection
         </LinkIcon>
-      </Container>
+      </ContainerLinkIcon>
     </>
   );
 }

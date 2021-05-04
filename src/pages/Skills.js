@@ -15,7 +15,9 @@ export default function Skills() {
       <Text fontSize="40px" textAlign="justify" fontWeight="600">
         I wear a lot of hats and more often than not they overlap one another. I
         acquire a broad, flexible and interdisciplinarity skillset which I use
-        based on the task at hand.
+        based on the task at hand. I’m not afraid to say ‘I don’t know’ but also
+        ‘I would like you to show me how to do it better’. I embrace an attitude
+        of self-reflection and self-directed and continuous learning.
       </Text>
       <SkillsTopicList />
       <SkillsStack />
