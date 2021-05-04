@@ -12,7 +12,7 @@ export default function InfoLinksIconsListDark(props) {
     <>
       <Container place="center start">
         <LinkIcon
-          href={props.linkUrl}
+          href="mailto: petros.chantz@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -21,7 +21,7 @@ export default function InfoLinksIconsListDark(props) {
       </Container>
       <Container place="center start">
         <LinkIcon
-          href={props.linkUrl}
+          href="https://www.dropbox.com/s/tfq10r1cp2ow0ua/Petros-Chantzopoulos-CV.pdf?dl=0"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -30,7 +30,7 @@ export default function InfoLinksIconsListDark(props) {
       </Container>
       <Container place="center start">
         <LinkIcon
-          href={props.linkUrl}
+          href="https://www.linkedin.com/in/petroschantz/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -39,7 +39,7 @@ export default function InfoLinksIconsListDark(props) {
       </Container>
       <Container place="center start">
         <LinkIcon
-          href={props.linkUrl}
+          href="https://github.com/petros-chantz"
           target="_blank"
           rel="noopener noreferrer"
         >
