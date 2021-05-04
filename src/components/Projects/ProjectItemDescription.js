@@ -1,12 +1,12 @@
 import React from "react";
 import { Container } from "../Container";
-import { Text } from "../Text";
+import { TextRegular } from "../Text";
 
 export default function ProjectItemDescription(props) {
   const { project } = props;
   return (
     <Container place="center">
-      <Text textAlign="justify">{project.description}</Text>
+      <TextRegular textAlign="justify">{project.description}</TextRegular>
     </Container>
   );
 }

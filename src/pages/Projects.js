@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, ProjectsContainer } from "../components/Container";
-import { Text } from "./../components/Text";
+import { TextB, TextBigig } from "./../components/Text";
 import ProjectList from "../components/Projects/ProjectList";
 import { HashLink } from "react-router-hash-link";
 
@@ -10,7 +10,7 @@ export default function Projects(props) {
       <ProjectList colorTheme={props.colorTheme} />
       <Container place="center end" padding="50px 0px 0px 0px">
         <HashLink smooth to="/#top">
-          <Text fontSize="40px">Back to the top</Text>
+          <TextBig>Back to the top</TextBig>
         </HashLink>
       </Container>
     </ProjectsContainer>

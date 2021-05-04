@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "../components/Container";
-import { Text } from "../components/Text";
+import { TextRegular } from "../components/Text";
 import styled from "styled-components";
 import { breakpoints } from "./../helpers/Media";
 
@@ -42,12 +42,12 @@ export default function Footer() {
   return (
     <PaddingFooter>
       <Container place="center start">
-        <Text textAlign="center">
+        <TextRegular textAlign="center">
           Petros Chantzopoulos - April 2021 - v3.0.0
-        </Text>
+        </TextRegular>
       </Container>
       <Container place="center end">
-        <Text textAlign="center">
+        <TextRegular textAlign="center">
           Love what you see?{" "}
           <FooterLink
             href="https://www.linkedin.com/in/petroschantz/"
@@ -64,7 +64,7 @@ export default function Footer() {
           >
             Email me!
           </FooterLink>
-        </Text>
+        </TextRegular>
       </Container>
     </PaddingFooter>
   );

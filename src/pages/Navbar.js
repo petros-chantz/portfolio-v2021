@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Padding } from "../components/Container";
 import NavbarLink from "../components/Navbar/NavbarLink";
-import { Text } from "../components/Text";
+import { TextRegular } from "../components/Text";
 import { Button } from "../components/Button";
 
 export default function Navbar(props) {
@@ -10,9 +10,9 @@ export default function Navbar(props) {
       <Container place="center start">
         <Button onClick={props.handleThemeChange}>
           {props.colorTheme ? (
-            <Text>lights off please</Text>
+            <TextRegular>lights off please</TextRegular>
           ) : (
-            <Text>lights on please</Text>
+            <TextRegular>lights on please</TextRegular>
           )}
         </Button>
       </Container>

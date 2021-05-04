@@ -17,10 +17,10 @@ export default function App(props) {
           colorTheme={props.colorTheme}
         />
         <Info colorTheme={props.colorTheme} />
-        <Skills />
+        {/* <Skills />
         <Experience />
         <Projects colorTheme={props.colorTheme} />
-        <Footer />
+        <Footer /> */}
       </Container>
     </Router>
   );
