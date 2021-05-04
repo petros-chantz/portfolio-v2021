@@ -70,8 +70,8 @@ export const ContainerSkillsStackItem = styled(Container)`
 
 export const ExperienceContainer = styled(Padding)`
   @media screen and (max-width: ${breakpoints.screen4k}) {
-    grid-template-rows: 800px;
-    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 800px;
+    grid-template-columns: 1fr;
   }
   @media screen and (max-width: ${breakpoints.laptopLScreen}) {
     grid-template-rows: 1fr;
