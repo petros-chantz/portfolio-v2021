@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "../Container";
 import { TextHuge, TextRegular } from "../Text";
 
-export default function ExperienceYearsListItem(props) {
+export default function ExperienceListItem(props) {
   return (
     <Container place="center" rows="3fr 1fr">
       <Container>

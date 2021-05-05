@@ -1,8 +1,8 @@
 import React from "react";
 import { Container } from "../Container";
-import { breakpoints } from "./../../helpers/Media";
+import { breakpoints } from "../../helpers/Media";
 import styled from "styled-components";
-import ExperienceYearsListItem from "./ExperienceYearsListItem";
+import ExperienceListItem from "./ExperienceListItem";
 
 const PaddingExperience = styled(Container)`
   @media screen and (max-width: ${breakpoints.screen4k}) {
@@ -17,19 +17,13 @@ const PaddingExperience = styled(Container)`
   }
 `;
 
-export default function ExperienceYearsList() {
+export default function ExperienceList() {
   return (
     <PaddingExperience gap="50px">
-      <ExperienceYearsListItem number="5" topic="research projects" />
-      <ExperienceYearsListItem number="3" topic="commercial projects" />
-      <ExperienceYearsListItem
-        number="25+"
-        topic="stakeholder collaborations"
-      />
-      <ExperienceYearsListItem
-        number="3+"
-        topic="years of commercial experience"
-      />
+      <ExperienceListItem number="5" topic="research projects" />
+      <ExperienceListItem number="3" topic="commercial projects" />
+      <ExperienceListItem number="25+" topic="stakeholder collaborations" />
+      <ExperienceListItem number="3+" topic="years of commercial experience" />
     </PaddingExperience>
   );
 }
