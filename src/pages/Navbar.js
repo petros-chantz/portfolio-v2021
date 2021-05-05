@@ -8,7 +8,7 @@ export default function Navbar(props) {
   return (
     <Container columns="repeat(2, 1fr)">
       <Container place="center start">
-        <Button onClick={props.handleThemeChange}>
+        <Button onClick={props.handleThemeChange} aria-label="theme change">
           {props.colorTheme ? (
             <TextRegular>lights off please</TextRegular>
           ) : (
