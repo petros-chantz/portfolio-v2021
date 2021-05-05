@@ -18,7 +18,7 @@ export default function App(props) {
   });
   return (
     <Router>
-      <ContainerApp style={animatedStyle}>
+      <ContainerApp style={animatedStyle} id="top">
         <Navbar
           handleThemeChange={props.handleThemeChange}
           colorTheme={props.colorTheme}

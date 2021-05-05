@@ -83,12 +83,12 @@ export const InfoContainer = styled(Container)`
 
 export const SkillsContainer = styled(Container)`
   @media screen and (max-width: ${breakpoints.screen4k}) {
-    grid-template-rows: 1fr 300px 200px;
+    grid-template-rows: 50px 1fr 300px 200px;
     grid-template-columns: 1fr;
   }
 
   @media screen and (max-width: ${breakpoints.laptopScreen}) {
-    grid-template-rows: 1fr 1fr 200px;
+    grid-template-rows: 50px 1fr 1fr 200px;
   }
 `;
 
@@ -103,7 +103,7 @@ export const ContainerSkillsStackItem = styled(Container)`
 
 export const ExperienceContainer = styled(Container)`
   @media screen and (max-width: ${breakpoints.screen4k}) {
-    grid-template-rows: 1fr 800px;
+    grid-template-rows: 50px 1fr 800px;
     grid-template-columns: 1fr;
   }
   @media screen and (max-width: ${breakpoints.laptopLScreen}) {
@@ -111,7 +111,7 @@ export const ExperienceContainer = styled(Container)`
   }
 
   @media screen and (max-width: ${breakpoints.laptopScreen}) {
-    grid-template-rows: 1fr 500px;
+    grid-template-rows: 50px 1fr 500px;
     grid-template-columns: 1fr;
   }
 `;
@@ -124,14 +124,10 @@ export const ContainerExperienceYearsItem = styled(Container)`
 export const ProjectsContainer = styled(Container)`
   @media screen and (max-width: ${breakpoints.screen4k}) {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 100px;
-  }
-  @media screen and (max-width: ${breakpoints.laptopScreen}) {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 100px;
+    grid-template-rows: 50px 1fr 100px;
   }
   @media screen and (max-width: ${breakpoints.tabletScreen}) {
-    grid-template-rows: 1fr 100px;
+    grid-template-rows: 50px 1fr 100px;
     grid-template-columns: 1fr;
   }
 `;

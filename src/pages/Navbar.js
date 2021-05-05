@@ -1,18 +1,18 @@
 import React from "react";
 import { Container } from "../components/Container";
 import NavbarLink from "../components/Navbar/NavbarLink";
-import { Text } from "../components/Text";
+import { TextRegular } from "../components/Text";
 import { Button } from "../components/Button";
 
 export default function Navbar(props) {
   return (
-    <Container columns="repeat(2, 1fr)" id="top">
+    <Container columns="repeat(2, 1fr)">
       <Container place="center start">
         <Button onClick={props.handleThemeChange}>
           {props.colorTheme ? (
-            <Text>lights off please</Text>
+            <TextRegular>lights off please</TextRegular>
           ) : (
-            <Text>lights on please</Text>
+            <TextRegular>lights on please</TextRegular>
           )}
         </Button>
       </Container>
