@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { breakpoints } from "./../helpers/Media";
+import { animated } from "react-spring";
 
 export const Container = styled.div`
   background-color: ${(props) => props.theme.color.background};
@@ -14,7 +15,18 @@ export const Container = styled.div`
   height: ${(props) => props.height};
 `;
 
-export const ContainerApp = styled(Container)`
+export const ContainerApp = styled(animated.div)`
+  background-color: ${(props) => props.theme.color.background};
+  display: grid;
+  grid-template-columns: ${(props) => props.columns};
+  grid-template-rows: ${(props) => props.rows};
+  grid-gap: ${(props) => props.gap};
+  place-items: ${(props) => props.place};
+  padding: ${(props) => props.padding};
+  margin: ${(props) => props.margin};
+  width: ${(props) => props.width};
+  height: ${(props) => props.height};
+
   @media screen and (max-width: ${breakpoints.screen4k}) {
     padding: 100px 550px 50px 550px;
   }
