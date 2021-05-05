@@ -18,7 +18,9 @@ export default function Skills() {
         of self-reflection and self-directed and continuous learning.
       </TextLarge>
       <SkillsTopicList />
-      <SkillsStack />
+      <Container place="center">
+        <SkillsStack />
+      </Container>
     </SkillsContainer>
   );
 }
