@@ -1,6 +1,6 @@
 import React from "react";
 import { ExperienceContainer, Container } from "../components/Container";
-import ExperienceYearsList from "../components/Experience/ExperienceYearsList";
+import ExperienceList from "../components/Experience/ExperienceList";
 import { TextBig, TextLarge } from "../components/Text";
 
 export default function Experience() {
@@ -25,7 +25,7 @@ export default function Experience() {
         </TextLarge>
       </Container>
       <Container>
-        <ExperienceYearsList />
+        <ExperienceList />
       </Container>
     </ExperienceContainer>
   );
