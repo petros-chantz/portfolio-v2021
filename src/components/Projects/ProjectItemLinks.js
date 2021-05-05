@@ -1,9 +1,8 @@
 import React from "react";
 import { Container } from "../Container";
-import IconListDark2 from "./IconLists/IconListDark2";
-import IconListDark3 from "./IconLists/IconListDark3";
-import IconListLight2 from "./IconLists/IconListLight2";
-import IconListLight3 from "./IconLists/IconListLight3";
+import { light, dark } from "../../helpers/themes";
+import IconList3 from "./IconLists/IconList3";
+import IconList2 from "./IconLists/IconList2";
 
 export default function ProjectItemLinks(props) {
   const { project } = props;
@@ -12,17 +11,19 @@ export default function ProjectItemLinks(props) {
       {props.colorTheme ? (
         <Container columns="repeat(3, 100px)" place="center start">
           {project.extraLinks ? (
-            <IconListLight3 project={project} />
+            <>
+              <IconList3 project={project} themeColor={light.color.link} />
+            </>
           ) : (
-            <IconListLight2 project={project} />
+            <IconList2 project={project} themeColor={light.color.link} />
           )}
         </Container>
       ) : (
         <Container columns="repeat(3, 100px)" place="center start">
           {project.extraLinks ? (
-            <IconListDark3 project={project} />
+            <IconList3 project={project} themeColor={dark.color.link} />
           ) : (
-            <IconListDark2 project={project} />
+            <IconList2 project={project} themeColor={dark.color.link} />
           )}
         </Container>
       )}
