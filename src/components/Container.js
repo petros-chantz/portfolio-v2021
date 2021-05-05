@@ -93,12 +93,12 @@ export const SkillsContainer = styled(Container)`
 `;
 
 export const ContainerSkillsStack = styled(Container)`
-  background-color: ${(props) => props.theme.color.backgroundSkillsStack};
-  border-radius: ${(props) => props.theme.borderRadius};
+  background-color: ${(props) => props.theme.color.background};
 `;
 
 export const ContainerSkillsStackItem = styled(Container)`
   background-color: ${(props) => props.theme.color.backgroundSkillsStack};
+  border-radius: 4px;
 `;
 
 export const ExperienceContainer = styled(Container)`
