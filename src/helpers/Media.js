@@ -1,6 +1,6 @@
 export const breakpoints = {
   screen4k: "2590px",
-  laptopLScreen: "1800px",
+  laptopLScreen: "2100px",
   laptopMScreen: "1440px",
   laptopScreen: "1024px",
   tabletScreen: "768px",
