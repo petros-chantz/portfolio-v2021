@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  Container,
-  ContainerSkillsStackItem,
-  ContainerSkillsStack,
-} from "../Container";
+import { Container, ContainerSkillsStackItem } from "../Container";
 import { TextRegular } from "../Text";
 import Figma from "../../images/Figma-Icon.svg";
 import Storybook from "../../images/storybook.svg";
@@ -14,14 +10,10 @@ import StyledComponents from "../../images/styled-components.svg";
 export default function SkillsStack() {
   return (
     <Container gap="10px">
-      <Container place="center" padding="50px 0px 0px 0px">
+      <Container place="center">
         <TextRegular fontWeight="500">My current dev stack:</TextRegular>
       </Container>
-      <ContainerSkillsStack
-        columns="repeat(5,1fr)"
-        padding="20px"
-        place="center"
-      >
+      <Container columns="repeat(5,1fr)" padding="20px" place="center">
         <ContainerSkillsStackItem padding="15px" place="center">
           <img src={Figma} alt="figma" height="50" />
         </ContainerSkillsStackItem>
@@ -41,7 +33,7 @@ export default function SkillsStack() {
         >
           <img src={AWS} alt="AWS" height="50" />
         </ContainerSkillsStackItem>
-      </ContainerSkillsStack>
+      </Container>
     </Container>
   );
 }

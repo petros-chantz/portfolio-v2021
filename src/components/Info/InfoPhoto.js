@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { useSpring, animated } from "react-spring";
 import Me from "../../images/me-small.jpg";
+import { Container } from "../Container";
 
 const calc = (x, y) => [
   -(y - window.innerHeight / 2) / 20,
@@ -11,14 +12,10 @@ const calc = (x, y) => [
 const trans = (x, y, s) =>
   `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
 
-const ContainerPhoto = styled(animated.div)`
-  height: 100%;
-  display: grid;
-  place-items: center;
-
+const ContainerPhoto = styled(Container)`
   .card {
-    width: 50ch;
-    height: 50ch;
+    width: 25ch;
+    height: 25ch;
     background: black;
     border-radius: 5px;
     background-image: url(${Me});
@@ -32,24 +29,7 @@ const ContainerPhoto = styled(animated.div)`
       box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.6);
     }
   }
-  @media screen and (max-width: 1500px) {
-    .card {
-      width: 45ch;
-      height: 45ch;
-    }
-  }
-  @media screen and (max-width: 1100px) {
-    .card {
-      width: 35ch;
-      height: 35ch;
-    }
-  }
-  @media screen and (max-width: 800px) {
-    .card {
-      width: 35ch;
-      height: 35ch;
-    }
-  }
+
   @media screen and (max-width: 500px) {
     padding-top: 0 !important;
     .card {
@@ -66,7 +46,7 @@ export default function HomePhoto() {
     config: { mass: 5, tension: 300, friction: 30 },
   }));
   return (
-    <ContainerPhoto style={animation}>
+    <ContainerPhoto style={animation} place="center">
       <animated.div
         class="card"
         onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}

@@ -5,9 +5,8 @@ import { Link } from "../Link";
 export default function InfoTitle() {
   return (
     <Container>
-      <TextHuge>Hey there,</TextHuge>
       <TextHuge>
-        {" "}
+        Hey there,{" "}
         <Link
           href="https://www.linkedin.com/in/petroschantz/"
           target="_blank"

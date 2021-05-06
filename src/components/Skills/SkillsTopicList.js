@@ -14,9 +14,9 @@ const ContainerSkillsTopic = styled(Container)`
 function SkillsTopic(props) {
   const { skills } = props;
   return (
-    <ContainerSkillsTopic rows="70px 200px">
+    <ContainerSkillsTopic rows="70px 250px">
       <Container place="center">
-        <TextRegular transform="uppercase" fontWeight="800">
+        <TextRegular transform="uppercase" fontWeight="800" textAlign="center">
           {skills.expertiseName}
         </TextRegular>
       </Container>
@@ -36,13 +36,20 @@ const ContainerSkillsList = styled(Container)`
   @media screen and (max-width: ${breakpoints.screen4k}) {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    width: 100%;
-    height: 100%;
+    padding: 0px 300px 0px 300px;
   }
-  @media screen and (max-width: ${breakpoints.laptopScreen}) {
+
+  @media screen and (max-width: ${breakpoints.laptopLScreen}) {
+    padding: 0px;
+  }
+
+  @media screen and (max-width: ${breakpoints.laptopMScreen}) {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
-    width: 70%;
+    padding: 0px 200px 0px 200px;
+  }
+  @media screen and (max-width: ${breakpoints.laptopScreen}) {
+    padding: 0px 90px 0px 90px;
   }
 `;
 
