@@ -11,7 +11,7 @@ export default function InfoLinks(props) {
   return (
     <>
       {props.colorTheme ? (
-        <Container columns="repeat(4,1fr)" gap="50px">
+        <Container columns="repeat(4,1fr)" gap="40px">
           <IconBoxLink
             iconComponent={
               <Email
@@ -46,7 +46,7 @@ export default function InfoLinks(props) {
           />
         </Container>
       ) : (
-        <Container columns="repeat(4,1fr)" gap="50px">
+        <Container columns="repeat(4,1fr)" gap="40px">
           <IconBoxLink
             iconComponent={
               <Email

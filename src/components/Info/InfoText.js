@@ -3,7 +3,7 @@ import { TextLarge } from "../Text";
 
 export default function InfoText() {
   return (
-    <Container gap="70px">
+    <Container gap="70px" place="center">
       <TextLarge>
         I’m a UX Researcher and an all-around Creative Technologist. I hold a
         Master's Degree in Constructive Design Research from Technical
