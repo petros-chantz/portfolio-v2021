@@ -11,13 +11,18 @@ export const ExperienceContainer = styled(Container)`
     grid-template-rows: 50px 1fr 300px;
     grid-template-columns: 1fr;
   }
+
+  @media screen and (max-width: ${breakpoints.laptopLScreen}) {
+    grid-template-rows: 50px 1fr 200px;
+  }
+
   @media screen and (max-width: ${breakpoints.laptopMScreen}) {
     padding: 100px 200px 50px 200px;
-    grid-template-rows: 50px 200px 1fr 200px;
+    grid-template-rows: 50px 1fr 300px;
   }
   @media screen and (max-width: ${breakpoints.laptopScreen}) {
     padding: 100px 150px 50px 150px;
-    grid-template-rows: 50px 1fr 500px;
+    grid-template-rows: 50px 1fr auto;
     grid-template-columns: 1fr;
   }
   @media screen and (max-width: ${breakpoints.tabletScreen}) {
