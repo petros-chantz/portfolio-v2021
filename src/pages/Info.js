@@ -12,6 +12,10 @@ const InfoContainer = styled(Container)`
     padding: 100px 300px 50px 300px;
   }
 
+  @media screen and (max-width: ${breakpoints.laptopLScreen}) {
+    padding: 100px 250px 50px 250px;
+  }
+
   @media screen and (max-width: ${breakpoints.laptopMScreen}) {
     padding: 100px 200px 50px 200px;
   }

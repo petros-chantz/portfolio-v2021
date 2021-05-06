@@ -13,71 +13,39 @@ export default function InfoLinks(props) {
       {props.colorTheme ? (
         <Container columns="repeat(4,1fr)" gap="40px">
           <IconBoxLink
-            iconComponent={
-              <Email
-                color={light.color.link}
-                iconLinkAddress="mailto: petros.chantz@gmail.com"
-              />
-            }
+            iconLinkAddress="mailto: petros.chantz@gmail.com"
+            iconComponent={<Email color={light.color.link} />}
           />
           <IconBoxLink
-            iconComponent={
-              <Cv
-                color={light.color.link}
-                iconLinkAddress="https://www.dropbox.com/s/tfq10r1cp2ow0ua/Petros-Chantzopoulos-CV.pdf?dl=0"
-              />
-            }
+            iconLinkAddress="https://www.dropbox.com/s/tfq10r1cp2ow0ua/Petros-Chantzopoulos-CV.pdf?dl=0"
+            iconComponent={<Cv color={light.color.link} />}
           />
           <IconBoxLink
-            iconComponent={
-              <LinkedIn
-                color={light.color.link}
-                iconLinkAddress="https://www.linkedin.com/in/petroschantz/"
-              />
-            }
+            iconLinkAddress="https://www.linkedin.com/in/petroschantz/"
+            iconComponent={<LinkedIn color={light.color.link} />}
           />
           <IconBoxLink
-            iconComponent={
-              <Github
-                color={light.color.link}
-                iconLinkAddress="https://github.com/petros-chantz"
-              />
-            }
+            iconLinkAddress="https://github.com/petros-chantz"
+            iconComponent={<Github color={light.color.link} />}
           />
         </Container>
       ) : (
         <Container columns="repeat(4,1fr)" gap="40px">
           <IconBoxLink
-            iconComponent={
-              <Email
-                color={dark.color.link}
-                iconLinkAddress="mailto: petros.chantz@gmail.com"
-              />
-            }
+            iconLinkAddress="mailto: petros.chantz@gmail.com"
+            iconComponent={<Email color={dark.color.link} />}
           />
           <IconBoxLink
-            iconComponent={
-              <Cv
-                color={dark.color.link}
-                iconLinkAddress="https://www.dropbox.com/s/tfq10r1cp2ow0ua/Petros-Chantzopoulos-CV.pdf?dl=0"
-              />
-            }
+            iconLinkAddress="https://www.dropbox.com/s/tfq10r1cp2ow0ua/Petros-Chantzopoulos-CV.pdf?dl=0"
+            iconComponent={<Cv color={dark.color.link} />}
           />
           <IconBoxLink
-            iconComponent={
-              <LinkedIn
-                color={dark.color.link}
-                iconLinkAddress="https://www.linkedin.com/in/petroschantz/"
-              />
-            }
+            iconLinkAddress="https://www.linkedin.com/in/petroschantz/"
+            iconComponent={<LinkedIn color={dark.color.link} />}
           />
           <IconBoxLink
-            iconComponent={
-              <Github
-                color={dark.color.link}
-                iconLinkAddress="https://github.com/petros-chantz"
-              />
-            }
+            iconLinkAddress="https://github.com/petros-chantz"
+            iconComponent={<Github color={dark.color.link} />}
           />
         </Container>
       )}
