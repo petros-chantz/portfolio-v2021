@@ -14,7 +14,9 @@ export const Container = styled.div`
   height: ${(props) => props.height};
 `;
 
-export const ContainerApp = styled(animated(Container))``;
+export const ContainerApp = styled(animated(Container))`
+  background-color: ${(props) => props.theme.color.background};
+`;
 
 export const ContainerSkillsStackItem = styled(Container)`
   background-color: ${(props) => props.theme.color.backgroundSkillsStack};
