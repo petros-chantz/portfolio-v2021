@@ -23,7 +23,7 @@ export default function ExperienceList() {
       <ExperienceListItem number="5" topic="research projects" />
       <ExperienceListItem number="3" topic="commercial projects" />
       <ExperienceListItem number="25+" topic="stakeholder collaborations" />
-      <ExperienceListItem number="3+" topic="years of commercial experience" />
+      <ExperienceListItem number="5+" topic="years of programming experience" />
     </PaddingExperience>
   );
 }

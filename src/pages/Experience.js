@@ -47,7 +47,7 @@ export default function Experience() {
           academic research projects, in design research labs and in commercial
           projects for companies such as Signify (Ex. Philips Lighting) has
           helped me shape my working attitude and gain new insights on improving
-          myself.
+          my expertise.
         </TextLarge>
       </Container>
       <Container>
