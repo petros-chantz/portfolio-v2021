@@ -18,7 +18,7 @@ export default function InfoLinks(props) {
             title="email"
           />
           <IconBoxLink
-            iconLinkAddress="https://www.dropbox.com/s/tfq10r1cp2ow0ua/Petros-Chantzopoulos-CV.pdf?dl=0"
+            iconLinkAddress="https://www.dropbox.com/s/lw4y364zbkekua7/Petros_Chantzopoulos_CV.pdf?dl=0"
             iconComponent={<Cv color={light.color.link} />}
             title="cv"
           />
@@ -41,7 +41,7 @@ export default function InfoLinks(props) {
             title="email"
           />
           <IconBoxLink
-            iconLinkAddress="https://www.dropbox.com/s/tfq10r1cp2ow0ua/Petros-Chantzopoulos-CV.pdf?dl=0"
+            iconLinkAddress="https://www.dropbox.com/s/lw4y364zbkekua7/Petros_Chantzopoulos_CV.pdf?dl=0"
             iconComponent={<Cv color={dark.color.link} />}
             title="cv"
           />
