@@ -10,10 +10,12 @@ export default function IconList2(props) {
       <IconBoxLink
         iconLinkAddress={project.links.linkA.linkAddress}
         iconComponent={<Report color={props.themeColor} />}
+        title="Report"
       />
       <IconBoxLink
         iconLinkAddress={project.links.linkB.linkAddress}
         iconComponent={<Camera color={props.themeColor} />}
+        title="More Photos"
       />
     </>
   );
