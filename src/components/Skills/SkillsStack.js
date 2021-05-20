@@ -15,16 +15,21 @@ export default function SkillsStack() {
       </Container>
       <Container columns="repeat(5,1fr)" padding="20px" place="center">
         <ContainerSkillsStackItem padding="15px" place="center">
-          <img src={Figma} alt="figma" height="50" />
+          <img src={Figma} alt="figma" height="50" title="Figma" />
         </ContainerSkillsStackItem>
         <ContainerSkillsStackItem padding="15px" place="center">
-          <img src={Storybook} alt="Storybook" height="50" />
+          <img src={Storybook} alt="Storybook" height="50" title="Storybook" />
         </ContainerSkillsStackItem>
         <ContainerSkillsStackItem padding="15px" place="center">
-          <img src={StyledComponents} alt="StyledComponents" height="50" />
+          <img
+            src={StyledComponents}
+            alt="StyledComponents"
+            height="50"
+            title="Styled-components"
+          />
         </ContainerSkillsStackItem>
         <ContainerSkillsStackItem padding="15px" place="center">
-          <img src={ReactLogo} alt="ReactLogo" height="50" />
+          <img src={ReactLogo} alt="ReactLogo" height="50" title="React.js" />
         </ContainerSkillsStackItem>
         <ContainerSkillsStackItem
           padding="15px"

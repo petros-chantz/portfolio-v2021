@@ -10,7 +10,7 @@ export default function ProjectItemLinks(props) {
     <>
       {props.colorTheme ? (
         <Container columns="repeat(3, 100px)" place="center start">
-          {project.extraLinks ? (
+          {project.frontend ? (
             <>
               <IconList3 project={project} themeColor={light.color.link} />
             </>
@@ -20,7 +20,7 @@ export default function ProjectItemLinks(props) {
         </Container>
       ) : (
         <Container columns="repeat(3, 100px)" place="center start">
-          {project.extraLinks ? (
+          {project.frontend ? (
             <IconList3 project={project} themeColor={dark.color.link} />
           ) : (
             <IconList2 project={project} themeColor={dark.color.link} />

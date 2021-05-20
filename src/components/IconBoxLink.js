@@ -10,6 +10,7 @@ export default function IconBoxLink(props) {
           href={props.iconLinkAddress}
           target="_blank"
           rel="noopener noreferrer"
+          title={props.title}
         >
           {props.iconComponent}
         </LinkIcon>

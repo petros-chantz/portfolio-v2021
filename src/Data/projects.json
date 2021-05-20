@@ -1,12 +1,48 @@
 
 {
-    "1": {
+      "1": {
       "id": "1",
+      "title": "News App",
+      "photoCover": "./assets/Projects/news.jpg",
+      "projectType": "Frontend / UI Design",
+      "frontend": true,
+      "description": "A minimalistic news app utilizing New York Times top stories REST Api. Created with React.js, styled-components",
+      "links": {
+        "linkA": {
+          "linkAddress": "https://news-app-petros.netlify.app/",
+          "linkName": "live demo"
+        },
+        "linkB": {
+            "linkAddress": "https://github.com/petros-chantz/News-app",
+            "linkName": "Github Repo"
+        }
+      }
+    },
+        "2": {
+      "id": "2",
+      "title": "FAQ Accordion App",
+      "photoCover": "./assets/Projects/faq.jpg",
+      "projectType": "Frontend / UI Design",
+      "frontend": true,
+      "description": "A minimalistic news app utilizing New York Times top stories REST Api. Created with React.js, styled-components",
+      "links": {
+        "linkA": {
+          "linkAddress": "https://faq-app-petros.netlify.app/",
+          "linkName": "live demo"
+        },
+        "linkB": {
+            "linkAddress": "https://github.com/petros-chantz/FAQ-Accordion-App",
+            "linkName": "Github Repo"
+        }
+      }
+    },
+    "3": {
+      "id": "3",
       "title": "JoyStick",
       "photoCover": "./assets/Projects/joyStick.jpg",
       "projectType": "UX Research",
-      "extraLinks": false,
-      "description": " A self-contained, network connected tangible sleep quality measuring device for sleep research at the home setting. ",
+      "frontend": false,
+      "description": "A self-contained, network connected tangible sleep quality measuring device for sleep research at the home setting.",
       "links": {
         "linkA": {
           "linkAddress": "https://www.dropbox.com/s/modl3ftnj9m1mbq/JoyStick%20CHI%20paper.pdf?dl=0",
@@ -18,12 +54,12 @@
         }
       }
     },
-    "2": {
-      "id": "2",
+    "4": {
+      "id": "4",
       "title": "AudioTales",
       "photoCover": "./assets/Projects/audioTales.jpg",
       "projectType": "UX Design",
-      "extraLinks": false,
+      "frontend": false,
       "description": "A smart home system created to motivate children to perform daily tasks through immersive and interactive storytelling. ",
       "links": {
         "linkA": {
@@ -36,12 +72,12 @@
         }
       }
     },
-    "3": {
-      "id": "3",
+    "5": {
+      "id": "5",
       "title": "In-store Customization",
       "photoCover": "./assets/Projects/bachelor.jpg",
       "projectType": "UX/UI Design",
-      "extraLinks": false,
+      "frontend": false,
       "description": "Designing new in-store retail experiences based on embodied interaction for the personalization and customization of wearables. ",
       "links": {
         "linkA": {

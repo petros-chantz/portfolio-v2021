@@ -40,7 +40,7 @@ export default function Footer() {
     <PaddingFooter>
       <Container place="center start">
         <TextRegular textAlign="center">
-          Petros Chantzopoulos - April 2021 - v3.2.1
+          Petros Chantzopoulos - April 2021 - v3.2.4
         </TextRegular>
       </Container>
       <Container place="center end">
