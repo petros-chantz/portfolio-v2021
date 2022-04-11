@@ -20,14 +20,15 @@ export default class ComingSoon extends React.Component {
 
    render(){
     return (
+        <div className="container">
         <div className="coming-soon">
             <h1 className="title">Oops, sorry...</h1>
-            <h3 className="subtitle">Currently working on creating a new portfolio</h3>
-            <h3 className="subtitle">Expected Launch Date: June 20th 2022 - {this.findDateOfLaunch()} days from now</h3>
+            <h3 className="subtitle">Currently working on creating a new portfolio.</h3>
+            <h3 className="subtitle">Expected Launch Date: June 20th 2022 - {this.findDateOfLaunch()} days from now.</h3>
             <h3 className="subtitle email">petros.chantz [at] gmail [dot] com</h3>
+        </div>
         </div>
       );
    }
-
 }
 
