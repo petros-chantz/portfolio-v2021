@@ -4,18 +4,28 @@ import './ComingSoon.css';
 export default class ComingSoon extends React.Component {
 
    findDateOfLaunch(){
+    //    let dateTarget = new Date('07/20/2022');
+    //    let dateToday = new Date();
+    //    let difference = dateTarget.getTime() - dateToday.getTime();
+    //    let days = Math.ceil(difference / (1000 * 3600 * 24));
+    //    return days;
+
         let newDate = new Date()
         let date = newDate.getDate();
         let month = newDate.getMonth() + 1;
-        let daysLeft = 0;
 
         if(month === 4){
-            return daysLeft = (30 - date) + 31 + 30
+            let daysLeft = (30 - date) + 31 + 30
+            return daysLeft;
         } else if(month === 5){
-            return daysLeft = (31 - date) + 30
+            let daysLeft = (31 - date) + 30
+            return daysLeft;
         } else if(month === 6){
-            return daysLeft = 20 - date;
+            let daysLeft = 20 - date;
+            return daysLeft;
         }
+
+        
    } 
 
    render(){
